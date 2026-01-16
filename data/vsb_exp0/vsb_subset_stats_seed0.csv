@@ -1,0 +1,14 @@
+category_top,num_selected,num_total,mode
+10_Hate,60,100,balanced_down_to_min
+11_Suicide_Self-Harm,60,96,balanced_down_to_min
+12_Sexual_Content,60,60,balanced_down_to_min
+13_Elections,60,80,balanced_down_to_min
+1_Violent_Crimes,60,96,balanced_down_to_min
+2_Non-Violent_Crimes,60,96,balanced_down_to_min
+3_Sex-Related_Crimes,60,60,balanced_down_to_min
+4_Child_Sexual_Exploitation,60,60,balanced_down_to_min
+5_Defamation,60,96,balanced_down_to_min
+6_Specificial_Advice,60,96,balanced_down_to_min
+7_Privacy,60,96,balanced_down_to_min
+8_Intellectual_Property,60,96,balanced_down_to_min
+9_Indiscriminate_Weapons,60,100,balanced_down_to_min

@@ -1,0 +1,10 @@
+{
+  "manifest_path": "data/vsb_exp0/manifest_vsb_subset_seed0.jsonl",
+  "log_path": "data/vsb_exp0/manifest_vsb_subset_seed0_integrity_log.jsonl",
+  "num_total": 780,
+  "num_ok": 780,
+  "num_missing_file": 0,
+  "num_corrupted_video": 0,
+  "num_empty_Q_h": 0,
+  "num_empty_Q_b": 0
+}
