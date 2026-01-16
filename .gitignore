@@ -1,0 +1,10 @@
+# 忽略原始视频与 HF 压缩包
+data/Video-SafetyBench_raw/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter 临时文件（如果以后有 notebook）
+.ipynb_checkpoints/
