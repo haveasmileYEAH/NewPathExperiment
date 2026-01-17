@@ -17,6 +17,10 @@ import time
 from pathlib import Path
 
 import torch
+original_is_autocast_enabled = torch.is_autocast_enabled
+def patched_is_autocast_enabled(*args, **kwargs):
+    return original_is_autocast_enabled()
+torch.is_autocast_enabled = patched_is_autocast_enabled
 from tqdm import tqdm
 import yaml
 

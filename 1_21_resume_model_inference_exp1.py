@@ -1,10 +1,10 @@
 # 1_21_resume_model_inference_exp1.py
 #
 # 功能：在已有 raw_outputs_model-*.jsonl 的基础上“断点续跑”：
-#   - 读取 manifest_exp1_attacks.jsonl（全部 attack_id）
-#   - 读取已有输出文件中的 attack_id 集合
-#   - 只对「尚未出现过的 attack_id」继续调用 Qwen2.5-VL-7B-Instruct 推理
-#   - 新结果以 append 方式追加到同一个输出文件
+#    - 读取 manifest_exp1_attacks.jsonl（全部 attack_id）
+#    - 读取已有输出文件中的 attack_id 集合
+#    - 只对「尚未出现过的 attack_id」继续调用 Qwen2.5-VL-7B-Instruct 推理
+#    - 新结果以 append 方式追加到同一个输出文件
 #
 # 不会修改你现有的 1_20_run_model_inference_exp1.py 逻辑。
 
@@ -20,6 +20,12 @@ import yaml
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
+# --- MINIMAL CHANGE 1: HOTFIX FOR AUTOCAST ERROR ---
+original_is_autocast_enabled = torch.is_autocast_enabled
+def patched_is_autocast_enabled(*args, **kwargs):
+    return original_is_autocast_enabled()
+torch.is_autocast_enabled = patched_is_autocast_enabled
+# ---------------------------------------------------
 
 def load_config(config_path: str):
     with open(config_path, "r", encoding="utf-8") as f:
@@ -348,6 +354,24 @@ def main():
                     "gen_time": elapsed,
                 }
 
+            # --- MINIMAL CHANGE 2: KEYBOARD INTERRUPT HANDLER ---
+            except KeyboardInterrupt:
+                print(f"\n[INTERRUPT] 手动跳过 attack_id: {attack_id}")
+                record = {
+                    "attack_id": attack_id,
+                    "video_id": video_id,
+                    "condition": condition,
+                    "model_name": model_name,
+                    "model_id": model_id,
+                    "query_text": query_text,
+                    "query_type": query_type,
+                    "video_path": video_path,
+                    "output_text": "[USER_SKIPPED_VIA_CTRL_C]",
+                    "gen_time": None,
+                }
+                time.sleep(1) # 短暂休眠防止误操作连续跳过
+            # ---------------------------------------------------
+
             except Exception as e:
                 record = {
                     "attack_id": attack_id,
@@ -363,7 +387,7 @@ def main():
                 }
 
             fout.write(json.dumps(record, ensure_ascii=False) + "\n")
-            fout.flush()
+            fout.flush() # 确保实时写入
 
     finally:
         fout.close()
