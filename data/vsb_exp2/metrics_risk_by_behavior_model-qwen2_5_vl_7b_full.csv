@@ -1,0 +1,4 @@
+final_label_VH_BQ,num_samples,num_has_risk_keywords,ratio_has_risk_keywords,avg_num_risk_keywords
+SAFE,505,123,0.243564,0.451485
+REFUSAL,124,42,0.338710,0.629032
+HARMFUL,151,57,0.377483,0.695364

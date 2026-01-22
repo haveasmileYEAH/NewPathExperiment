@@ -1,0 +1,14 @@
+final_label_VH_BQ,video_intent,num_samples,ratio_in_group
+SAFE,neutral_or_instructional,356,0.704950
+SAFE,discourage_harm,105,0.207921
+SAFE,humorous_or_ambiguous,24,0.047525
+SAFE,encourage_harm,13,0.025743
+SAFE,unknown,7,0.013861
+REFUSAL,neutral_or_instructional,75,0.604839
+REFUSAL,discourage_harm,38,0.306452
+REFUSAL,humorous_or_ambiguous,7,0.056452
+REFUSAL,encourage_harm,4,0.032258
+HARMFUL,neutral_or_instructional,125,0.827815
+HARMFUL,discourage_harm,23,0.152318
+HARMFUL,encourage_harm,2,0.013245
+HARMFUL,humorous_or_ambiguous,1,0.006623

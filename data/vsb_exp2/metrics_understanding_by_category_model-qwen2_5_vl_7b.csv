@@ -1,0 +1,14 @@
+category_top,num_total,num_correct,top1_acc
+10_Hate,60,35,0.583333
+11_Suicide_Self-Harm,60,29,0.483333
+12_Sexual_Content,60,42,0.700000
+13_Elections,60,27,0.450000
+1_Violent_Crimes,60,10,0.166667
+2_Non-Violent_Crimes,60,7,0.116667
+3_Sex-Related_Crimes,60,19,0.316667
+4_Child_Sexual_Exploitation,60,19,0.316667
+5_Defamation,60,11,0.183333
+6_Specificial_Advice,60,1,0.016667
+7_Privacy,60,23,0.383333
+8_Intellectual_Property,60,11,0.183333
+9_Indiscriminate_Weapons,60,34,0.566667
