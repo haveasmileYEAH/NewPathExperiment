@@ -1,0 +1,61 @@
+model:
+  name: qwen2_5_vl_7b
+  model_id: Qwen/Qwen2.5-VL-7B-Instruct
+  model_type: qwen2_5_vl
+external_safety_datasets:
+  text_attack: []
+external_states_dir: data/external_safety_states
+direction_storage_dir: data/risk_directions
+
+
+candidate_layers_for_visual_direction: []
+vsb:
+  subset_manifest: data/vsb_exp0/manifest_vsb_subset_seed0.jsonl
+  attack_manifest: data/vsb_exp1/manifest_exp1_attacks.jsonl
+  behavior_labels: data/vsb_exp1/behavior_labels_model-qwen2_5_vl_7b.jsonl
+  exp3_activation_dir: data/vsb_exp3/activations_model-qwen2_5_vl_7b
+  exp3_scores_path: data/vsb_exp3/risk_scores_model-qwen2_5_vl_7b.jsonl
+  conditions_for_vsb:
+    T-HQ: true
+    T-BQ: true
+    VH-HQ: true
+    VH-BQ: true
+    I-HQ: false
+    I-BQ: false
+text_direction_files:
+  raw: data/risk_directions/text_directions_raw_qwen2_5_vl_7b.npz
+  auroc_csv: data/risk_directions/text_direction_auroc_qwen2_5_vl_7b.csv
+  selected: data/risk_directions/text_directions_selected_qwen2_5_vl_7b.npz
+visual_direction_files:
+  raw: data/risk_directions/visual_direction_raw_qwen2_5_vl_7b.npz
+  selected: data/risk_directions/visual_direction_selected_qwen2_5_vl_7b.npz
+seed: 1234
+model:
+  id: "Qwen/Qwen2.5-VL-7B-Instruct"
+  arch: "qwen2_5_vl"
+
+external_datasets:
+  xstest:
+    hf_id: "natolambert/xstest-v2-copy"
+    split: "prompts"
+  mm_safetybench:
+    hf_id: "PKU-Alignment/MM-SafetyBench"
+    configs:
+      - "EconomicHarm"
+      - "Financial_Advice"
+      - "Fraud"
+      - "Gov_Decision"
+      - "HateSpeech"
+      - "Health_Consultation"
+      - "Illegal_Activitiy"
+      - "Legal_Opinion"
+      - "Malware_Generation"
+      - "Physical_Harm"
+      - "Political_Lobbying"
+      - "Privacy_Violence"
+      - "Sex"
+    split: "Text_only"
+
+candidate_layers_for_text_direction: "all"
+
+direction_storage_dir: "data/risk_directions_qwen2_5_vl_7b"
