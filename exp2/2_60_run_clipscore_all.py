@@ -2,38 +2,48 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-import csv
 import json
 import os
+import csv
 import random
 from typing import Any, Dict, List, Tuple
 
-import numpy as np
-from tqdm import tqdm
 import torch
+from tqdm import tqdm
+
+from transformers import CLIPModel, CLIPProcessor
 
 try:
-    from decord import VideoReader, cpu
-except ImportError as e:  # 运行时才会触发
-    VideoReader = None  # type: ignore
-    cpu = None  # type: ignore
-    _decord_import_error = e
-else:
-    _decord_import_error = None
-
-try:
-    from transformers import CLIPModel, CLIPProcessor
-except ImportError as e:  # 运行时才会触发
-    CLIPModel = None  # type: ignore
-    CLIPProcessor = None  # type: ignore
-    _clip_import_error = e
-else:
-    _clip_import_error = None
+    from torchvision.io import read_video
+except ImportError as e:
+    raise RuntimeError(
+        "torchvision is required for reading video frames. "
+        "Please install it with: pip install torchvision"
+    ) from e
 
 from PIL import Image
 
-def load_video_index(path: str) -> Dict[str, Dict[str, Any]]:
-    idx: Dict[str, Dict[str, Any]] = {}
+
+def load_video_index(path: str) -> List[Dict[str, Any]]:
+    records: List[Dict[str, Any]] = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            records.append(json.loads(line))
+    return records
+
+
+def load_keywords(path: str) -> Dict[str, Dict[str, Any]]:
+    """
+    读取 2_10 的输出：
+      data/vsb_exp2/keywords_model-qwen2_5_vl_7b.jsonl
+
+    返回：
+      global_id -> {"keywords_list": [...], "prompt_version": ...}
+    """
+    mapping: Dict[str, Dict[str, Any]] = {}
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -41,88 +51,209 @@ def load_video_index(path: str) -> Dict[str, Dict[str, Any]]:
                 continue
             obj = json.loads(line)
             gid = obj.get("global_id")
-            if not gid:
+            if not isinstance(gid, str):
                 continue
-            idx[gid] = obj
-    return idx
+            mapping[gid] = {
+                "keywords_list": obj.get("keywords_list") or [],
+                "prompt_version": obj.get("prompt_version", ""),
+            }
+    return mapping
 
-def load_keywords(path: str) -> Dict[str, List[str]]:
-    m: Dict[str, List[str]] = {}
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            obj = json.loads(line)
-            gid = obj.get("global_id")
-            if not gid:
-                continue
-            kw_list = obj.get("keywords_list") or []
-            m[gid] = [str(k) for k in kw_list]
-    return m
 
-def sample_frames(video_path: str, num_frames: int) -> List[Image.Image]:
-    if VideoReader is None or cpu is None:
-        raise RuntimeError(
-            "decord is required for video reading but not available. "
-            f"Original import error: {_decord_import_error}"
-        )
-    if not os.path.exists(video_path):
-        raise FileNotFoundError(video_path)
-    vr = VideoReader(video_path, ctx=cpu())
-    total = len(vr)
-    if total == 0:
-        return []
-    if num_frames >= total:
-        indices = list(range(total))
+def sample_video_frames(video_path: str, num_frames: int) -> List[Image.Image]:
+    """
+    使用 torchvision.io.read_video 读取视频，并均匀采样 num_frames 帧，返回 PIL.Image 列表。
+    """
+    # read_video 返回 (video, audio, info)
+    video, _, info = read_video(video_path, pts_unit="sec")
+    # video: [T, H, W, C]，uint8
+    total_frames = video.shape[0]
+    if total_frames == 0:
+        raise RuntimeError(f"Video has 0 frames: {video_path}")
+
+    if total_frames <= num_frames:
+        indices = torch.arange(total_frames)
     else:
-        indices = np.linspace(0, total - 1, num_frames, dtype=int).tolist()
-    batch = vr.get_batch(indices).asnumpy()  # (F,H,W,3)
-    frames: List[Image.Image] = []
-    for arr in batch:
-        frames.append(Image.fromarray(arr))
-    return frames
+        indices_f = torch.linspace(0, total_frames - 1, steps=num_frames)
+        indices = indices_f.long()
 
-def init_clip(model_name: str, device: str):
-    if CLIPModel is None or CLIPProcessor is None:
-        raise RuntimeError(
-            "transformers with CLIP support is required but not available. "
-            f"Original import error: {_clip_import_error}"
-        )
-    model = CLIPModel.from_pretrained(model_name)
+    frames = video[indices]  # [K, H, W, C]
+    images: List[Image.Image] = []
+    for frame in frames:
+        # frame: [H, W, C], uint8
+        img = Image.fromarray(frame.numpy())
+        images.append(img)
+    return images
+
+
+def init_clip(model_name: str, device: str = "cuda") -> Tuple[CLIPModel, CLIPProcessor]:
+    """
+    初始化 CLIP 模型 & 处理器。
+    关键点：use_safetensors=True，避免触发 torch.load 的安全检查。
+    """
+    print(f"[INFO] Loading CLIP model: {model_name} (use_safetensors=True)")
+    model = CLIPModel.from_pretrained(
+        model_name,
+        use_safetensors=True,
+    )
     processor = CLIPProcessor.from_pretrained(model_name)
+
     model.to(device)
     model.eval()
     return model, processor
 
-def compute_clip_features(
-    model,
-    processor,
+
+def encode_text_features(
+    model: CLIPModel,
+    processor: CLIPProcessor,
     device: str,
-    frames: List[Image.Image],
-    text: str,
-) -> Tuple[torch.Tensor, torch.Tensor]:
-    if not frames:
-        raise ValueError("No frames to encode.")
-    # image features
-    image_inputs = processor(images=frames, return_tensors="pt")
-    image_inputs = {k: v.to(device) for k, v in image_inputs.items()}
-    with torch.no_grad():
-        image_features = model.get_image_features(**image_inputs)  # (F,D)
-    image_features = image_features.mean(dim=0, keepdim=True)  # (1,D)
-    # text features
-    text_inputs = processor(text=[text], return_tensors="pt", padding=True, truncation=True)
-    text_inputs = {k: v.to(device) for k, v in text_inputs.items()}
-    with torch.no_grad():
-        text_features = model.get_text_features(**text_inputs)  # (1,D)
-    # normalize
-    image_features = image_features / image_features.norm(dim=-1, keepdim=True)
-    text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-    return image_features.squeeze(0).cpu(), text_features.squeeze(0).cpu()
+    samples: List[Dict[str, Any]],
+) -> Dict[str, torch.Tensor]:
+    gid2textfeat: Dict[str, torch.Tensor] = {}
+    for rec in tqdm(samples, desc="Encode text features"):
+        gid = rec["global_id"]
+        keywords = rec.get("keywords_list") or []
+        caption = ", ".join(keywords) if keywords else "no keywords"
+
+        # 修复点 1: 添加 truncation=True 和 max_length=77
+        inputs = processor(
+            text=[caption],
+            images=None,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            max_length=77,
+        )
+        input_ids = inputs["input_ids"].to(device)
+        attn_mask = inputs["attention_mask"].to(device)
+
+        with torch.no_grad():
+            # 修复点 2: 确保获取的是张量 (Tensor)
+            text_outputs = model.get_text_features(
+                input_ids=input_ids,
+                attention_mask=attn_mask,
+            )
+            # 兼容不同版本的 Transformers 返回类型
+            text_emb = text_outputs.pooler_output if hasattr(text_outputs, "pooler_output") else text_outputs
+
+        # L2 归一化并移到 CPU
+        text_emb = text_emb / text_emb.norm(dim=-1, keepdim=True)
+        gid2textfeat[gid] = text_emb.cpu()
+    return gid2textfeat
+
+
+def encode_image_and_compute_scores(
+    model: CLIPModel,
+    processor: CLIPProcessor,
+    device: str,
+    samples: List[Dict[str, Any]],
+    gid2textfeat: Dict[str, torch.Tensor],
+    num_frames: int,
+    num_negatives: int,
+    out_path: str,
+) -> None:
+    """
+    对每个视频：
+      - 抽帧 -> image features -> 平均成 1 向量
+      - 与本视频 text_feature 做正配对 similarity
+      - 随机采样 num_negatives 个其它视频 text_feature 作为负样本
+    """
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+    # 方便负采样
+    all_gids = [rec["global_id"] for rec in samples]
+
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "global_id",
+            "dataset",
+            "clip_model",
+            "clipscore_pos",
+            "clipscore_neg_mean",
+            "num_negatives",
+        ])
+
+        for rec in tqdm(samples, desc="Compute CLIPScore per video"):
+            gid = rec["global_id"]
+            dataset = rec.get("dataset", "")
+            video_path = rec.get("video_path")
+            if not video_path:
+                continue
+            if not os.path.exists(video_path):
+                print(f"[WARN] video not found: {video_path}, skip")
+                continue
+
+            # 抽帧 -> image features
+            try:
+                images = sample_video_frames(video_path, num_frames)
+            except Exception as e:
+                print(f"[WARN] Failed to read video {gid} ({video_path}): {e}")
+                continue
+
+            inputs = processor(
+                text=None,
+                images=images,
+                return_tensors="pt",
+                padding=True,
+            )
+            pixel_values = inputs["pixel_values"].to(device)
+
+            with torch.no_grad():
+                # 1. 获得原始输出
+                raw_img_outputs = model.get_image_features(pixel_values=pixel_values)
+                # 2. 确保拿到的是 Tensor
+                img_emb = raw_img_outputs.pooler_output if hasattr(raw_img_outputs, "pooler_output") else raw_img_outputs
+
+            # 3. L2 归一化 + 多帧平均
+            img_emb = img_emb / img_emb.norm(dim=-1, keepdim=True)
+            img_emb_mean = img_emb.mean(dim=0, keepdim=True)  # [1, D]
+
+            # 正配对文本特征
+            text_feat_pos = gid2textfeat.get(gid)
+            if text_feat_pos is None:
+                print(f"[WARN] No text feature for {gid}, skip")
+                continue
+            text_feat_pos = text_feat_pos.to(device)  # [1, D]
+
+            # 余弦相似度（向量已经归一化）
+            clipscore_pos = float((img_emb_mean * text_feat_pos).sum(dim=-1).item())
+
+            # 负样本
+            neg_scores: List[float] = []
+            if num_negatives > 0 and len(all_gids) > 1:
+                # 从其它视频中随机采样 num_negatives 个 gid
+                candidates = [g for g in all_gids if g != gid]
+                if len(candidates) <= num_negatives:
+                    neg_ids = candidates
+                else:
+                    neg_ids = random.sample(candidates, num_negatives)
+
+                for ng in neg_ids:
+                    text_feat_neg = gid2textfeat.get(ng)
+                    if text_feat_neg is None:
+                        continue
+                    text_feat_neg = text_feat_neg.to(device)  # [1, D]
+                    s = float((img_emb_mean * text_feat_neg).sum(dim=-1).item())
+                    neg_scores.append(s)
+
+            clipscore_neg_mean = sum(neg_scores) / len(neg_scores) if neg_scores else 0.0
+
+            writer.writerow([
+                gid,
+                dataset,
+                model.name_or_path,
+                clipscore_pos,
+                clipscore_neg_mean,
+                len(neg_scores),
+            ])
+            f.flush()
+            os.fsync(f.fileno())
+
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Compute CLIPScore-style alignment between video frames and keyword text."
+        description="Compute CLIPScore between videos and keyword-based text for all samples."
     )
     parser.add_argument(
         "--video_index",
@@ -140,135 +271,74 @@ def main():
         "--out_path",
         type=str,
         required=True,
-        help="Output CSV path for per-video CLIP scores.",
-    )
-    parser.add_argument(
-        "--clip_model_name",
-        type=str,
-        default="openai/clip-vit-base-patch32",
-        help="HuggingFace CLIP model name.",
-    )
-    parser.add_argument(
-        "--device",
-        type=str,
-        default="cuda",
-        help="Device for CLIP model (e.g., 'cuda' or 'cpu').",
+        help="Output CSV path for per-video CLIPScore.",
     )
     parser.add_argument(
         "--num_frames",
         type=int,
         default=8,
-        help="Number of frames to sample per video.",
+        help="Number of frames to sample from each video.",
+    )
+    parser.add_argument(
+        "--clip_model_name",
+        type=str,
+        default="openai/clip-vit-base-patch32",
+        help="HuggingFace model id for CLIP.",
+    )
+    parser.add_argument(
+        "--device",
+        type=str,
+        default="cuda",
+        help="Device to run CLIP model on (e.g., 'cuda' or 'cpu').",
     )
     parser.add_argument(
         "--num_negatives",
         type=int,
         default=10,
-        help="Number of negative texts per video to estimate negative CLIPScore.",
-    )
-    parser.add_argument(
-        "--seed",
-        type=int,
-        default=42,
-        help="Random seed for negative sampling.",
+        help="Number of negative text samples to draw per video.",
     )
     args = parser.parse_args()
 
-    random.seed(args.seed)
-    torch.manual_seed(args.seed)
-
     video_index = load_video_index(args.video_index)
-    keywords_map = load_keywords(args.keywords_path)
+    kw_map = load_keywords(args.keywords_path)
+
+    # 合并 video_index 和 keywords，确保每条样本都有 video_path + keywords
+    samples: List[Dict[str, Any]] = []
+    for rec in video_index:
+        gid = rec.get("global_id")
+        if not isinstance(gid, str):
+            continue
+        kw_info = kw_map.get(gid)
+        if kw_info is None:
+            continue
+        merged = {
+            "global_id": gid,
+            "dataset": rec.get("dataset", ""),
+            "video_path": rec.get("video_path"),
+            "keywords_list": kw_info.get("keywords_list") or [],
+            "prompt_version": kw_info.get("prompt_version", ""),
+        }
+        samples.append(merged)
+
+    print(f"[INFO] Merged {len(samples)} samples with video + keywords.")
 
     model, processor = init_clip(args.clip_model_name, device=args.device)
 
-    feats: List[Dict[str, Any]] = []
+    # 第一步：只算文本特征
+    gid2textfeat = encode_text_features(model, processor, device=args.device, samples=samples)
 
-    # First pass: compute features
-    for gid, rec in tqdm(video_index.items(), desc="Computing CLIP features"):
-        if gid not in keywords_map:
-            continue
-        video_path = rec.get("video_path")
-        if not video_path:
-            continue
-        kw_list = keywords_map[gid]
-        if not kw_list:
-            continue
-        text = ", ".join(kw_list)
-        try:
-            frames = sample_frames(video_path, num_frames=args.num_frames)
-            v_feat, t_feat = compute_clip_features(
-                model=model,
-                processor=processor,
-                device=args.device,
-                frames=frames,
-                text=text,
-            )
-        except Exception as e:
-            print(f"[WARN] Failed CLIP features for {gid} ({video_path}): {e}")
-            continue
+    # 第二步：视频 + 正负配对 CLIPScore
+    encode_image_and_compute_scores(
+        model=model,
+        processor=processor,
+        device=args.device,
+        samples=samples,
+        gid2textfeat=gid2textfeat,
+        num_frames=args.num_frames,
+        num_negatives=args.num_negatives,
+        out_path=args.out_path,
+    )
 
-        feats.append(
-            {
-                "global_id": gid,
-                "dataset": rec.get("dataset", ""),
-                "model_name": rec.get("model_name", ""),
-                "video_feat": v_feat,
-                "text_feat": t_feat,
-            }
-        )
-
-    n = len(feats)
-    print(f"[INFO] Collected CLIP features for {n} videos.")
-
-    fieldnames = [
-        "global_id",
-        "dataset",
-        "clip_model_name",
-        "clipscore_pos",
-        "clipscore_neg_mean",
-        "num_negatives",
-    ]
-    with open(args.out_path, "w", encoding="utf-8", newline="") as f_out:
-        writer = csv.DictWriter(f_out, fieldnames=fieldnames)
-        writer.writeheader()
-
-        for i, fi in enumerate(feats):
-            v_feat_i: torch.Tensor = fi["video_feat"]
-            t_feat_i: torch.Tensor = fi["text_feat"]
-            pos = float(torch.dot(v_feat_i, t_feat_i).item())
-
-            # sample negatives
-            if n <= 1 or args.num_negatives <= 0:
-                neg_mean = 0.0
-                num_negs = 0
-            else:
-                candidates = list(range(n))
-                candidates.remove(i)
-                if len(candidates) <= args.num_negatives:
-                    neg_indices = candidates
-                else:
-                    neg_indices = random.sample(candidates, args.num_negatives)
-                neg_scores: List[float] = []
-                for j in neg_indices:
-                    fj = feats[j]
-                    t_feat_j: torch.Tensor = fj["text_feat"]
-                    score = float(torch.dot(v_feat_i, t_feat_j).item())
-                    neg_scores.append(score)
-                neg_mean = float(sum(neg_scores) / len(neg_scores)) if neg_scores else 0.0
-                num_negs = len(neg_scores)
-
-            row = {
-                "global_id": fi["global_id"],
-                "dataset": fi["dataset"],
-                "clip_model_name": args.clip_model_name,
-                "clipscore_pos": pos,
-                "clipscore_neg_mean": neg_mean,
-                "num_negatives": num_negs,
-            }
-            writer.writerow(row)
-
-    print(f"[INFO] Wrote per-video CLIP scores to {args.out_path}")
 
 if __name__ == "__main__":
     main()

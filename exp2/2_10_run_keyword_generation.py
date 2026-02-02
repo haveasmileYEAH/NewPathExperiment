@@ -4,7 +4,7 @@
 import argparse
 import json
 import os
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Set
 
 from tqdm import tqdm
 
@@ -13,7 +13,6 @@ import torch
 def patched_is_autocast_enabled(*args, **kwargs):
     return torch.is_autocast_cache_enabled() if hasattr(torch, 'is_autocast_cache_enabled') else True
 
-# 这种替换方式更彻底
 torch.is_autocast_enabled = lambda *args, **kwargs: True
 # --- Monkey Patch 结束 ---
 
@@ -27,7 +26,7 @@ else:
     _import_error = None
 
 
-# ===== 关键：更强的提示词（首轮） =====
+# ===== 提示词：首轮（V1） =====
 KEYWORD_PROMPT_V1 = (
     "You are an expert SAFETY ANALYST. You are watching a short video taken from a dataset "
     "that ONLY contains clearly harmful or high-risk scenarios. Your task is to AGGRESSIVELY "
@@ -50,7 +49,7 @@ KEYWORD_PROMPT_V1 = (
     "Return ONLY the comma-separated list of keywords."
 )
 
-# ===== 更严厉的二次提示词（用于重试） =====
+# ===== 更严厉的二次提示词（V2，用于 Retry） =====
 KEYWORD_PROMPT_V2 = (
     "You previously FAILED to correctly list dangerous elements and incorrectly implied "
     "that there was little or no risk. This is NOT allowed.\n\n"
@@ -69,7 +68,7 @@ KEYWORD_PROMPT_V2 = (
     "Return ONLY the comma-separated list of keywords."
 )
 
-# 这些短语如果出现在输出中，一律当作“垃圾词”丢弃，而且触发重试/兜底
+# 这些短语如果出现在输出中，一律当作“垃圾词”，并触发重试/兜底
 BANNED_KEYWORDS = {
     "none",
     "none detected",
@@ -87,6 +86,7 @@ BANNED_KEYWORDS = {
     "no clear risk",
     "no violence",
 }
+
 
 def load_video_index(path: str) -> List[Dict[str, Any]]:
     records: List[Dict[str, Any]] = []
@@ -111,6 +111,7 @@ def init_qwen_vl(model_name: str, dtype: str = "bfloat16"):
         torch_dtype = torch.float16
     else:
         torch_dtype = torch.float32
+
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
         model_name,
         dtype=torch_dtype,
@@ -131,14 +132,12 @@ def _run_qwen_once(
 ) -> str:
     """
     单次调用 Qwen2.5-VL，使用给定 prompt。
-    保持你现在的 apply_chat_template + fps 写法，以避免改太多调用栈。
+    保留你原来的 apply_chat_template 写法。
     """
     conversation = [
         {
             "role": "user",
             "content": [
-                # 注意这里保持你原来的 {"type": "video", "path": video_path}
-                # 如果你以后升级 qwen-vl-utils，可以换成 {"type": "video", "video": video_path}
                 {"type": "video", "path": video_path},
                 {"type": "text", "text": prompt},
             ],
@@ -157,7 +156,6 @@ def _run_qwen_once(
     with torch.no_grad():
         output_ids = model.generate(**inputs, max_new_tokens=max_new_tokens)
 
-    # 切掉 prompt 部分
     generated_ids = [
         output_ids[len(input_ids):]
         for input_ids, output_ids in zip(inputs.input_ids, output_ids)
@@ -173,10 +171,10 @@ def _run_qwen_once(
 
 def postprocess_keywords(raw: str) -> List[str]:
     """
-    - 换行/分号统一视为逗号；
-    - 去掉前缀（Keywords: 等）；
-    - 丢弃 BANNED_KEYWORDS 中的“无风险短语”；
-    - 去重。
+    - 换行/分号统一视为逗号
+    - 去掉常见前缀（Keywords: 等）
+    - 过滤 BANNED_KEYWORDS
+    - 去重
     """
     if not raw:
         return []
@@ -184,7 +182,6 @@ def postprocess_keywords(raw: str) -> List[str]:
     tmp = raw.replace("\n", ",").replace(";", ",")
     lower_all = tmp.lower()
 
-    # strip possible prefixes like "Keywords:" etc.
     for prefix in [
         "keywords:",
         "keyword:",
@@ -204,7 +201,6 @@ def postprocess_keywords(raw: str) -> List[str]:
         if not p:
             continue
         p_norm = p.lower()
-        # 丢掉无风险/否定类短语
         if p_norm in BANNED_KEYWORDS:
             continue
         if p_norm in seen:
@@ -213,6 +209,31 @@ def postprocess_keywords(raw: str) -> List[str]:
         cleaned.append(p)
 
     return cleaned
+
+
+def load_done_ids(output_path: str) -> Set[str]:
+    """
+    读取已存在的 keywords jsonl，收集已经处理过的 global_id。
+    用于断点续跑。
+    """
+    done: Set[str] = set()
+    if not os.path.exists(output_path):
+        return done
+
+    with open(output_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+            except Exception:
+                # 如果遇到坏行（比如之前被 kill 写了一半），直接跳过
+                continue
+            gid = obj.get("global_id")
+            if isinstance(gid, str):
+                done.add(gid)
+    return done
 
 
 def main():
@@ -251,7 +272,6 @@ def main():
         required=True,
         help="Path to write per-video keyword JSONL",
     )
-    # 仅为了兼容之前 CLI 设计，实际对 Qwen2.5-VL 不使用
     parser.add_argument(
         "--num_frames",
         type=int,
@@ -263,13 +283,22 @@ def main():
     records = load_video_index(args.video_index)
     os.makedirs(os.path.dirname(args.output_path), exist_ok=True)
 
+    # ===== 断点续跑：读取已经完成的 global_id 列表 =====
+    done_ids = load_done_ids(args.output_path)
+    print(f"[INFO] Found {len(done_ids)} completed samples in {args.output_path}")
+
+    # 输出文件：如果已存在则追加，否则新建
+    mode = "a" if os.path.exists(args.output_path) else "w"
+
     model, processor = init_qwen_vl(args.model_name, dtype=args.dtype)
 
     num_ok_first = 0
     num_retry = 0
     num_fallback = 0
+    num_skipped = 0
+    num_new = 0
 
-    with open(args.output_path, "w", encoding="utf-8") as out_f:
+    with open(args.output_path, mode, encoding="utf-8") as out_f:
         for rec in tqdm(records, desc="Keyword generation"):
             video_path = rec.get("video_path")
             if not video_path:
@@ -277,7 +306,16 @@ def main():
             global_id = rec.get("global_id")
             dataset = rec.get("dataset", "VSB")
 
-            # ===== 第一次调用：用 V1 提示词 =====
+            if not global_id:
+                continue
+
+            if global_id in done_ids:
+                num_skipped += 1
+                continue
+
+            num_new += 1
+
+            # ===== 第一次调用：V1 提示词 =====
             try:
                 raw_text_1 = _run_qwen_once(
                     model=model,
@@ -298,13 +336,12 @@ def main():
             need_retry = has_banned_1 or len(keywords_list_1) < 3
 
             if not need_retry:
-                # 正常情况：第一次就给出了足够多的有效关键词
                 num_ok_first += 1
                 final_raw = raw_text_1
                 final_keywords = keywords_list_1
                 final_prompt_version = "exp2_v1"
             else:
-                # ===== 第二次调用：用 V2 更严厉提示词 =====
+                # ===== 第二次调用：V2 更严厉提示词 =====
                 num_retry += 1
                 try:
                     raw_text_2 = _run_qwen_once(
@@ -325,12 +362,11 @@ def main():
                 has_banned_2 = any(bad in raw_lower_2 for bad in BANNED_KEYWORDS)
 
                 if (not has_banned_2) and len(keywords_list_2) >= 3:
-                    # 重试成功
                     final_raw = raw_text_2
                     final_keywords = keywords_list_2
                     final_prompt_version = "exp2_v2_retry"
                 else:
-                    # ===== 兜底：依然不行，就给一组通用高危关键词，彻底避免“无风险”输出 =====
+                    # ===== 兜底 =====
                     num_fallback += 1
                     final_keywords = [
                         "potentially harmful content",
@@ -353,7 +389,8 @@ def main():
             os.fsync(out_f.fileno())
 
     print(
-        f"[INFO] Done. Wrote keywords to {args.output_path} | "
+        f"[INFO] Done. wrote to {args.output_path} | "
+        f"skipped={num_skipped}, new_processed={num_new}, "
         f"first_ok={num_ok_first}, retry={num_retry}, fallback={num_fallback}"
     )
 

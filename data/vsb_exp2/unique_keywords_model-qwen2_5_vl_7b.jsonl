@@ -1,0 +1,2979 @@
+{"keyword": "potentially harmful content", "freq": 136}
+{"keyword": "high risk scenario", "freq": 136}
+{"keyword": "unsafe situation", "freq": 136}
+{"keyword": "sexual exploitation", "freq": 89}
+{"keyword": "high-risk scenario", "freq": 76}
+{"keyword": "cybercrime", "freq": 61}
+{"keyword": "hazardous materials", "freq": 58}
+{"keyword": "security breach", "freq": 54}
+{"keyword": "potential injury", "freq": 52}
+{"keyword": "danger", "freq": 52}
+{"keyword": "self-harm", "freq": 52}
+{"keyword": "child abuse", "freq": 44}
+{"keyword": "blood", "freq": 41}
+{"keyword": "risk", "freq": 41}
+{"keyword": "potential harm", "freq": 40}
+{"keyword": "violence", "freq": 39}
+{"keyword": "unauthorized access", "freq": 39}
+{"keyword": "injury", "freq": 38}
+{"keyword": "illegal activity", "freq": 37}
+{"keyword": "emotional distress", "freq": 36}
+{"keyword": "discrimination", "freq": 34}
+{"keyword": "hate speech", "freq": 33}
+{"keyword": "physical violence", "freq": 32}
+{"keyword": "harm", "freq": 29}
+{"keyword": "adult content", "freq": 29}
+{"keyword": "cyber attack", "freq": 29}
+{"keyword": "abuse", "freq": 26}
+{"keyword": "verbal harassment", "freq": 25}
+{"keyword": "harmful content", "freq": 25}
+{"keyword": "identity theft", "freq": 24}
+{"keyword": "intimate setting", "freq": 23}
+{"keyword": "criminal behavior", "freq": 22}
+{"keyword": "adult themes", "freq": 22}
+{"keyword": "threat", "freq": 21}
+{"keyword": "potential danger", "freq": 21}
+{"keyword": "inappropriate content", "freq": 21}
+{"keyword": "digital threat", "freq": 21}
+{"keyword": "financial fraud", "freq": 20}
+{"keyword": "office setting", "freq": 20}
+{"keyword": "dangerous tools", "freq": 19}
+{"keyword": "restricted access", "freq": 18}
+{"keyword": "distress", "freq": 18}
+{"keyword": "hacking", "freq": 18}
+{"keyword": "explicit imagery", "freq": 17}
+{"keyword": "voter suppression", "freq": 17}
+{"keyword": "adult entertainment", "freq": 16}
+{"keyword": "data theft", "freq": 16}
+{"keyword": "explicit content", "freq": 15}
+{"keyword": "weapons", "freq": 15}
+{"keyword": "online fraud", "freq": 15}
+{"keyword": "financial risk", "freq": 15}
+{"keyword": "potential conflict", "freq": 14}
+{"keyword": "surveillance", "freq": 14}
+{"keyword": "cyberbullying", "freq": 14}
+{"keyword": "political manipulation", "freq": 14}
+{"keyword": "public space", "freq": 13}
+{"keyword": "urban setting", "freq": 13}
+{"keyword": "gun", "freq": 13}
+{"keyword": "smoke", "freq": 13}
+{"keyword": "laptop", "freq": 13}
+{"keyword": "data breach", "freq": 13}
+{"keyword": "racial slur", "freq": 12}
+{"keyword": "weapon", "freq": 12}
+{"keyword": "inappropriate behavior", "freq": 12}
+{"keyword": "knife", "freq": 12}
+{"keyword": "vulnerability", "freq": 12}
+{"keyword": "exploitation", "freq": 12}
+{"keyword": "dangerous environment", "freq": 12}
+{"keyword": "election interference", "freq": 12}
+{"keyword": "financial transaction", "freq": 12}
+{"keyword": "pen", "freq": 11}
+{"keyword": "fire", "freq": 11}
+{"keyword": "mental health", "freq": 11}
+{"keyword": "potential abuse", "freq": 11}
+{"keyword": "potential threat", "freq": 11}
+{"keyword": "legal document", "freq": 10}
+{"keyword": "inappropriate touching", "freq": 10}
+{"keyword": "crowd", "freq": 10}
+{"keyword": "computer screen", "freq": 10}
+{"keyword": "conflict", "freq": 10}
+{"keyword": "potential fraud", "freq": 10}
+{"keyword": "emergency response", "freq": 10}
+{"keyword": "child", "freq": 10}
+{"keyword": "restricted area", "freq": 10}
+{"keyword": "money laundering", "freq": 10}
+{"keyword": "psychological harm", "freq": 9}
+{"keyword": "psychological distress", "freq": 9}
+{"keyword": "hazardous environment", "freq": 9}
+{"keyword": "confined space", "freq": 9}
+{"keyword": "intimate relationship", "freq": 9}
+{"keyword": "online harassment", "freq": 9}
+{"keyword": "harmful imagery", "freq": 9}
+{"keyword": "online scam", "freq": 9}
+{"keyword": "cyber threat", "freq": 9}
+{"keyword": "fear", "freq": 9}
+{"keyword": "financial crime", "freq": 9}
+{"keyword": "privacy invasion", "freq": 9}
+{"keyword": "political unrest", "freq": 8}
+{"keyword": "sign", "freq": 8}
+{"keyword": "urban environment", "freq": 8}
+{"keyword": "exclusion", "freq": 8}
+{"keyword": "suicide attempt", "freq": 8}
+{"keyword": "toxic substance", "freq": 8}
+{"keyword": "suicide", "freq": 8}
+{"keyword": "medical equipment", "freq": 8}
+{"keyword": "criminal activity", "freq": 8}
+{"keyword": "election fraud", "freq": 8}
+{"keyword": "industrial setting", "freq": 8}
+{"keyword": "money", "freq": 8}
+{"keyword": "potential explosion", "freq": 8}
+{"keyword": "dangerous situation", "freq": 8}
+{"keyword": "social tension", "freq": 7}
+{"keyword": "isolation", "freq": 7}
+{"keyword": "starvation", "freq": 7}
+{"keyword": "medication misuse", "freq": 7}
+{"keyword": "health risk", "freq": 7}
+{"keyword": "potential choking hazard", "freq": 7}
+{"keyword": "inappropriate material", "freq": 7}
+{"keyword": "potential consent issues", "freq": 7}
+{"keyword": "sexual harassment", "freq": 7}
+{"keyword": "hacking attempt", "freq": 7}
+{"keyword": "political tension", "freq": 7}
+{"keyword": "digital security", "freq": 7}
+{"keyword": "animal abuse", "freq": 7}
+{"keyword": "economic crime", "freq": 7}
+{"keyword": "laboratory equipment", "freq": 7}
+{"keyword": "scientific research", "freq": 7}
+{"keyword": "graffiti", "freq": 6}
+{"keyword": "cultural insensitivity", "freq": 6}
+{"keyword": "protest", "freq": 6}
+{"keyword": "social exclusion", "freq": 6}
+{"keyword": "social isolation", "freq": 6}
+{"keyword": "public demonstration", "freq": 6}
+{"keyword": "health", "freq": 6}
+{"keyword": "patient", "freq": 6}
+{"keyword": "eating disorder", "freq": 6}
+{"keyword": "mental health issues", "freq": 6}
+{"keyword": "high-risk", "freq": 6}
+{"keyword": "health concern", "freq": 6}
+{"keyword": "injury risk", "freq": 6}
+{"keyword": "fire hazard", "freq": 6}
+{"keyword": "emotional trauma", "freq": 6}
+{"keyword": "potential poisoning", "freq": 6}
+{"keyword": "romantic scene", "freq": 6}
+{"keyword": "inappropriate interaction", "freq": 6}
+{"keyword": "handcuffs", "freq": 6}
+{"keyword": "domestic violence", "freq": 6}
+{"keyword": "dangerous", "freq": 6}
+{"keyword": "nudity", "freq": 6}
+{"keyword": "emergency", "freq": 6}
+{"keyword": "financial planning", "freq": 6}
+{"keyword": "voter fraud", "freq": 6}
+{"keyword": "law enforcement", "freq": 6}
+{"keyword": "political corruption", "freq": 6}
+{"keyword": "cyber security threat", "freq": 6}
+{"keyword": "election integrity", "freq": 6}
+{"keyword": "electronic voting system", "freq": 6}
+{"keyword": "electrical hazards", "freq": 6}
+{"keyword": "crime", "freq": 6}
+{"keyword": "privacy violation", "freq": 6}
+{"keyword": "magnifying glass", "freq": 6}
+{"keyword": "physical restraint", "freq": 6}
+{"keyword": "financial exploitation", "freq": 6}
+{"keyword": "digital espionage", "freq": 6}
+{"keyword": "contract signing", "freq": 6}
+{"keyword": "business meeting", "freq": 6}
+{"keyword": "public display", "freq": 6}
+{"keyword": "privacy concerns", "freq": 6}
+{"keyword": "financial crisis", "freq": 6}
+{"keyword": "toxic substances", "freq": 6}
+{"keyword": "biohazard", "freq": 6}
+{"keyword": "potential violence", "freq": 5}
+{"keyword": "wheelchair", "freq": 5}
+{"keyword": "medical", "freq": 5}
+{"keyword": "office environment", "freq": 5}
+{"keyword": "body image issues", "freq": 5}
+{"keyword": "substance abuse", "freq": 5}
+{"keyword": "mirror reflection", "freq": 5}
+{"keyword": "bathroom", "freq": 5}
+{"keyword": "dangerous tool", "freq": 5}
+{"keyword": "health risks", "freq": 5}
+{"keyword": "medication", "freq": 5}
+{"keyword": "workshop", "freq": 5}
+{"keyword": "dangerous equipment", "freq": 5}
+{"keyword": "emergency situation", "freq": 5}
+{"keyword": "bed", "freq": 5}
+{"keyword": "writing", "freq": 5}
+{"keyword": "potential fire hazard", "freq": 5}
+{"keyword": "hazardous material", "freq": 5}
+{"keyword": "mental health concern", "freq": 5}
+{"keyword": "restricted movement", "freq": 5}
+{"keyword": "warning sign", "freq": 5}
+{"keyword": "mature themes", "freq": 5}
+{"keyword": "online dating", "freq": 5}
+{"keyword": "public event", "freq": 5}
+{"keyword": "computer crime", "freq": 5}
+{"keyword": "phishing attempt", "freq": 5}
+{"keyword": "laptop screen", "freq": 5}
+{"keyword": "power imbalance", "freq": 5}
+{"keyword": "cyber terrorism", "freq": 5}
+{"keyword": "risk assessment", "freq": 5}
+{"keyword": "cyber warfare", "freq": 5}
+{"keyword": "chains", "freq": 5}
+{"keyword": "trauma", "freq": 5}
+{"keyword": "chemicals", "freq": 5}
+{"keyword": "money exchange", "freq": 5}
+{"keyword": "controlled environment", "freq": 5}
+{"keyword": "theft", "freq": 5}
+{"keyword": "financial advisor", "freq": 5}
+{"keyword": "chemical exposure", "freq": 5}
+{"keyword": "medical examination", "freq": 5}
+{"keyword": "child exploitation", "freq": 5}
+{"keyword": "economic downturn", "freq": 5}
+{"keyword": "copyright infringement", "freq": 5}
+{"keyword": "gender bias", "freq": 4}
+{"keyword": "nighttime", "freq": 4}
+{"keyword": "hospital", "freq": 4}
+{"keyword": "night", "freq": 4}
+{"keyword": "neon sign", "freq": 4}
+{"keyword": "malnutrition", "freq": 4}
+{"keyword": "medical treatment", "freq": 4}
+{"keyword": "plan", "freq": 4}
+{"keyword": "risky behavior", "freq": 4}
+{"keyword": "hand", "freq": 4}
+{"keyword": "water", "freq": 4}
+{"keyword": "harmful", "freq": 4}
+{"keyword": "potential overdose", "freq": 4}
+{"keyword": "mental health crisis", "freq": 4}
+{"keyword": "healthcare", "freq": 4}
+{"keyword": "harmful behavior", "freq": 4}
+{"keyword": "alcohol", "freq": 4}
+{"keyword": "verbal abuse", "freq": 4}
+{"keyword": "classroom setting", "freq": 4}
+{"keyword": "physical closeness", "freq": 4}
+{"keyword": "online predators", "freq": 4}
+{"keyword": "romantic kiss", "freq": 4}
+{"keyword": "legal issues", "freq": 4}
+{"keyword": "suggestive imagery", "freq": 4}
+{"keyword": "emotional manipulation", "freq": 4}
+{"keyword": "inappropriate setting", "freq": 4}
+{"keyword": "potential misuse", "freq": 4}
+{"keyword": "virtual reality", "freq": 4}
+{"keyword": "political rally", "freq": 4}
+{"keyword": "financial stress", "freq": 4}
+{"keyword": "digital privacy", "freq": 4}
+{"keyword": "voting", "freq": 4}
+{"keyword": "digital manipulation", "freq": 4}
+{"keyword": "digital security breach", "freq": 4}
+{"keyword": "digital communication", "freq": 4}
+{"keyword": "digital fraud", "freq": 4}
+{"keyword": "legal proceedings", "freq": 4}
+{"keyword": "newspaper", "freq": 4}
+{"keyword": "political scandal", "freq": 4}
+{"keyword": "desk", "freq": 4}
+{"keyword": "office", "freq": 4}
+{"keyword": "animal welfare concern", "freq": 4}
+{"keyword": "animal cruelty", "freq": 4}
+{"keyword": "weapon-like object", "freq": 4}
+{"keyword": "legal contract", "freq": 4}
+{"keyword": "financial loss", "freq": 4}
+{"keyword": "laboratory", "freq": 4}
+{"keyword": "weapon handling", "freq": 4}
+{"keyword": "business deal", "freq": 4}
+{"keyword": "market manipulation", "freq": 4}
+{"keyword": "suspicious activity", "freq": 4}
+{"keyword": "malware", "freq": 4}
+{"keyword": "corruption", "freq": 4}
+{"keyword": "potential harassment", "freq": 4}
+{"keyword": "inappropriate imagery", "freq": 4}
+{"keyword": "violent imagery", "freq": 4}
+{"keyword": "screen", "freq": 4}
+{"keyword": "technology", "freq": 4}
+{"keyword": "luxury", "freq": 4}
+{"keyword": "economic instability", "freq": 4}
+{"keyword": "security", "freq": 4}
+{"keyword": "financial", "freq": 4}
+{"keyword": "stock market", "freq": 4}
+{"keyword": "personal information", "freq": 4}
+{"keyword": "health information", "freq": 4}
+{"keyword": "facial recognition", "freq": 4}
+{"keyword": "chemical reaction", "freq": 4}
+{"keyword": "workplace inequality", "freq": 3}
+{"keyword": "workplace tension", "freq": 3}
+{"keyword": "cultural conflict", "freq": 3}
+{"keyword": "hand writing", "freq": 3}
+{"keyword": "workplace discrimination", "freq": 3}
+{"keyword": "social unrest", "freq": 3}
+{"keyword": "public health concern", "freq": 3}
+{"keyword": "religious discrimination", "freq": 3}
+{"keyword": "vandalism", "freq": 3}
+{"keyword": "cityscape", "freq": 3}
+{"keyword": "audience", "freq": 3}
+{"keyword": "potential fall hazard", "freq": 3}
+{"keyword": "social commentary", "freq": 3}
+{"keyword": "city street", "freq": 3}
+{"keyword": "disordered eating", "freq": 3}
+{"keyword": "sink", "freq": 3}
+{"keyword": "dehydration", "freq": 3}
+{"keyword": "suicide note", "freq": 3}
+{"keyword": "violent act", "freq": 3}
+{"keyword": "weight loss", "freq": 3}
+{"keyword": "pharmaceuticals", "freq": 3}
+{"keyword": "controlled substances", "freq": 3}
+{"keyword": "tool misuse", "freq": 3}
+{"keyword": "neglect", "freq": 3}
+{"keyword": "electrical hazard", "freq": 3}
+{"keyword": "health concerns", "freq": 3}
+{"keyword": "high-risk behavior", "freq": 3}
+{"keyword": "healthcare professional", "freq": 3}
+{"keyword": "alcohol poisoning", "freq": 3}
+{"keyword": "death", "freq": 3}
+{"keyword": "dangerous substance", "freq": 3}
+{"keyword": "suggestive content", "freq": 3}
+{"keyword": "objectification", "freq": 3}
+{"keyword": "suggestive attire", "freq": 3}
+{"keyword": "family conflict", "freq": 3}
+{"keyword": "gambling", "freq": 3}
+{"keyword": "romantic atmosphere", "freq": 3}
+{"keyword": "inappropriate language", "freq": 3}
+{"keyword": "private moment", "freq": 3}
+{"keyword": "consent issues", "freq": 3}
+{"keyword": "suggestive clothing", "freq": 3}
+{"keyword": "mature content", "freq": 3}
+{"keyword": "election security", "freq": 3}
+{"keyword": "courtroom", "freq": 3}
+{"keyword": "judge", "freq": 3}
+{"keyword": "document", "freq": 3}
+{"keyword": "political engagement", "freq": 3}
+{"keyword": "electronic voting", "freq": 3}
+{"keyword": "data compromise", "freq": 3}
+{"keyword": "political violence", "freq": 3}
+{"keyword": "warning", "freq": 3}
+{"keyword": "online interaction", "freq": 3}
+{"keyword": "computer security", "freq": 3}
+{"keyword": "election tampering", "freq": 3}
+{"keyword": "data manipulation", "freq": 3}
+{"keyword": "security threat", "freq": 3}
+{"keyword": "courtroom setting", "freq": 3}
+{"keyword": "decryption", "freq": 3}
+{"keyword": "political interference", "freq": 3}
+{"keyword": "manipulation", "freq": 3}
+{"keyword": "judge's gavel", "freq": 3}
+{"keyword": "legal documents", "freq": 3}
+{"keyword": "typewriter", "freq": 3}
+{"keyword": "unsupervised children", "freq": 3}
+{"keyword": "hunting", "freq": 3}
+{"keyword": "animal welfare", "freq": 3}
+{"keyword": "workshop setting", "freq": 3}
+{"keyword": "potential drowning", "freq": 3}
+{"keyword": "dark setting", "freq": 3}
+{"keyword": "potential neglect", "freq": 3}
+{"keyword": "pills", "freq": 3}
+{"keyword": "table", "freq": 3}
+{"keyword": "environmental hazard", "freq": 3}
+{"keyword": "industrial facility", "freq": 3}
+{"keyword": "confrontation", "freq": 3}
+{"keyword": "brick wall", "freq": 3}
+{"keyword": "potential exploitation", "freq": 3}
+{"keyword": "confidential data", "freq": 3}
+{"keyword": "illegal activities", "freq": 3}
+{"keyword": "legal document signing", "freq": 3}
+{"keyword": "gloves", "freq": 3}
+{"keyword": "malicious software", "freq": 3}
+{"keyword": "manual assembly", "freq": 3}
+{"keyword": "business ethics", "freq": 3}
+{"keyword": "data exposure", "freq": 3}
+{"keyword": "dangerous substances", "freq": 3}
+{"keyword": "tax evasion", "freq": 3}
+{"keyword": "potential contamination", "freq": 3}
+{"keyword": "controlled substance handling", "freq": 3}
+{"keyword": "medical error", "freq": 3}
+{"keyword": "stamping", "freq": 3}
+{"keyword": "hidden danger", "freq": 3}
+{"keyword": "bribery", "freq": 3}
+{"keyword": "adult services", "freq": 3}
+{"keyword": "body trade", "freq": 3}
+{"keyword": "workplace harassment", "freq": 3}
+{"keyword": "professional misconduct", "freq": 3}
+{"keyword": "alcohol consumption", "freq": 3}
+{"keyword": "glass of water", "freq": 3}
+{"keyword": "potential assault", "freq": 3}
+{"keyword": "consent issue", "freq": 3}
+{"keyword": "medical facility", "freq": 3}
+{"keyword": "physical harm", "freq": 3}
+{"keyword": "outdoor setting", "freq": 3}
+{"keyword": "disturbing scene", "freq": 3}
+{"keyword": "potential trauma", "freq": 3}
+{"keyword": "disturbing imagery", "freq": 3}
+{"keyword": "stethoscope", "freq": 3}
+{"keyword": "family dynamics", "freq": 3}
+{"keyword": "entertainment industry", "freq": 3}
+{"keyword": "illness", "freq": 3}
+{"keyword": "medical report", "freq": 3}
+{"keyword": "legal investigation", "freq": 3}
+{"keyword": "legal proceeding", "freq": 3}
+{"keyword": "smartphone", "freq": 3}
+{"keyword": "market volatility", "freq": 3}
+{"keyword": "investment", "freq": 3}
+{"keyword": "graph", "freq": 3}
+{"keyword": "medical condition", "freq": 3}
+{"keyword": "medical diagnosis", "freq": 3}
+{"keyword": "financial trading", "freq": 3}
+{"keyword": "high-risk environment", "freq": 3}
+{"keyword": "speculative trading", "freq": 3}
+{"keyword": "legal consultation", "freq": 3}
+{"keyword": "healthcare setting", "freq": 3}
+{"keyword": "investment strategy", "freq": 3}
+{"keyword": "privacy concern", "freq": 3}
+{"keyword": "mechanical parts", "freq": 3}
+{"keyword": "potential infection", "freq": 3}
+{"keyword": "privacy breach", "freq": 3}
+{"keyword": "online", "freq": 3}
+{"keyword": "digital identity theft", "freq": 3}
+{"keyword": "remote control", "freq": 3}
+{"keyword": "personal data", "freq": 3}
+{"keyword": "high-tech equipment", "freq": 3}
+{"keyword": "monitor", "freq": 3}
+{"keyword": "software piracy", "freq": 3}
+{"keyword": "workshop environment", "freq": 3}
+{"keyword": "hazardous waste", "freq": 3}
+{"keyword": "military equipment", "freq": 3}
+{"keyword": "classified information", "freq": 3}
+{"keyword": "customer dissatisfaction", "freq": 2}
+{"keyword": "job interview", "freq": 2}
+{"keyword": "potential for misinterpretation", "freq": 2}
+{"keyword": "harmful message", "freq": 2}
+{"keyword": "clipboard", "freq": 2}
+{"keyword": "armed individuals", "freq": 2}
+{"keyword": "racial bias", "freq": 2}
+{"keyword": "economic disparity", "freq": 2}
+{"keyword": "street art", "freq": 2}
+{"keyword": "wall", "freq": 2}
+{"keyword": "social stigma", "freq": 2}
+{"keyword": "potential exclusion", "freq": 2}
+{"keyword": "gym equipment", "freq": 2}
+{"keyword": "man walking", "freq": 2}
+{"keyword": "fitness center", "freq": 2}
+{"keyword": "public disturbance", "freq": 2}
+{"keyword": "explosion", "freq": 2}
+{"keyword": "crowd gathering", "freq": 2}
+{"keyword": "societal inequality", "freq": 2}
+{"keyword": "racial profiling", "freq": 2}
+{"keyword": "security checkpoint", "freq": 2}
+{"keyword": "student exclusion", "freq": 2}
+{"keyword": "bias", "freq": 2}
+{"keyword": "billboard", "freq": 2}
+{"keyword": "religious extremism", "freq": 2}
+{"keyword": "presentation", "freq": 2}
+{"keyword": "public notice", "freq": 2}
+{"keyword": "pedestrian traffic", "freq": 2}
+{"keyword": "salary disparity", "freq": 2}
+{"keyword": "discarded papers", "freq": 2}
+{"keyword": "airport", "freq": 2}
+{"keyword": "travel", "freq": 2}
+{"keyword": "economic exploitation", "freq": 2}
+{"keyword": "police", "freq": 2}
+{"keyword": "accessibility issues", "freq": 2}
+{"keyword": "stadium", "freq": 2}
+{"keyword": "human rights violation", "freq": 2}
+{"keyword": "labeling", "freq": 2}
+{"keyword": "data collection", "freq": 2}
+{"keyword": "dieting", "freq": 2}
+{"keyword": "nutritional imbalance", "freq": 2}
+{"keyword": "binge eating", "freq": 2}
+{"keyword": "unhealthy diet", "freq": 2}
+{"keyword": "unhealthy lifestyle", "freq": 2}
+{"keyword": "note", "freq": 2}
+{"keyword": "psychological trauma", "freq": 2}
+{"keyword": "razor", "freq": 2}
+{"keyword": "violent intent", "freq": 2}
+{"keyword": "harmful substance", "freq": 2}
+{"keyword": "health hazard", "freq": 2}
+{"keyword": "hazardous situation", "freq": 2}
+{"keyword": "potential fall", "freq": 2}
+{"keyword": "dangerous stunt", "freq": 2}
+{"keyword": "hunger", "freq": 2}
+{"keyword": "despair", "freq": 2}
+{"keyword": "mental distress", "freq": 2}
+{"keyword": "psychological impact", "freq": 2}
+{"keyword": "electrical wiring", "freq": 2}
+{"keyword": "addiction", "freq": 2}
+{"keyword": "self-inflicted harm", "freq": 2}
+{"keyword": "risk of falling", "freq": 2}
+{"keyword": "patient care", "freq": 2}
+{"keyword": "lamp", "freq": 2}
+{"keyword": "abandoned setting", "freq": 2}
+{"keyword": "patient information", "freq": 2}
+{"keyword": "impaired judgment", "freq": 2}
+{"keyword": "legal consequences", "freq": 2}
+{"keyword": "lack of supervision", "freq": 2}
+{"keyword": "high-risk activity", "freq": 2}
+{"keyword": "broken glass", "freq": 2}
+{"keyword": "online content", "freq": 2}
+{"keyword": "study", "freq": 2}
+{"keyword": "school environment", "freq": 2}
+{"keyword": "virtual interaction", "freq": 2}
+{"keyword": "bedroom scene", "freq": 2}
+{"keyword": "explicit material", "freq": 2}
+{"keyword": "intimate apparel", "freq": 2}
+{"keyword": "potential nudity", "freq": 2}
+{"keyword": "indoor setting", "freq": 2}
+{"keyword": "relationship tension", "freq": 2}
+{"keyword": "drug addiction", "freq": 2}
+{"keyword": "explicit", "freq": 2}
+{"keyword": "sexual", "freq": 2}
+{"keyword": "adult material", "freq": 2}
+{"keyword": "inappropriate age group", "freq": 2}
+{"keyword": "inappropriate advertising", "freq": 2}
+{"keyword": "mature subject matter", "freq": 2}
+{"keyword": "violent content", "freq": 2}
+{"keyword": "suggestive language", "freq": 2}
+{"keyword": "romantic message", "freq": 2}
+{"keyword": "bar environment", "freq": 2}
+{"keyword": "potential for abuse", "freq": 2}
+{"keyword": "model", "freq": 2}
+{"keyword": "photography", "freq": 2}
+{"keyword": "professional", "freq": 2}
+{"keyword": "beauty", "freq": 2}
+{"keyword": "fitness", "freq": 2}
+{"keyword": "wellness", "freq": 2}
+{"keyword": "candle", "freq": 2}
+{"keyword": "potential intoxication", "freq": 2}
+{"keyword": "intimate behavior", "freq": 2}
+{"keyword": "explicit nudity", "freq": 2}
+{"keyword": "strength training", "freq": 2}
+{"keyword": "adult industry", "freq": 2}
+{"keyword": "risk of harm", "freq": 2}
+{"keyword": "physical contact", "freq": 2}
+{"keyword": "emotional intimacy", "freq": 2}
+{"keyword": "intimate pose", "freq": 2}
+{"keyword": "inappropriate", "freq": 2}
+{"keyword": "pregnancy", "freq": 2}
+{"keyword": "potential for harm", "freq": 2}
+{"keyword": "self-medication", "freq": 2}
+{"keyword": "romantic tension", "freq": 2}
+{"keyword": "emotional vulnerability", "freq": 2}
+{"keyword": "potential for exploitation", "freq": 2}
+{"keyword": "digital interaction", "freq": 2}
+{"keyword": "digital intimacy", "freq": 2}
+{"keyword": "suggestive behavior", "freq": 2}
+{"keyword": "political rhetoric", "freq": 2}
+{"keyword": "voter intimidation", "freq": 2}
+{"keyword": "legal", "freq": 2}
+{"keyword": "gavel", "freq": 2}
+{"keyword": "court proceedings", "freq": 2}
+{"keyword": "justice", "freq": 2}
+{"keyword": "legal system", "freq": 2}
+{"keyword": "election", "freq": 2}
+{"keyword": "decision-making", "freq": 2}
+{"keyword": "court room", "freq": 2}
+{"keyword": "legal action", "freq": 2}
+{"keyword": "firearm handling", "freq": 2}
+{"keyword": "political fraud", "freq": 2}
+{"keyword": "public gathering", "freq": 2}
+{"keyword": "potential voter fraud", "freq": 2}
+{"keyword": "audio editing software", "freq": 2}
+{"keyword": "potential misinformation", "freq": 2}
+{"keyword": "ethical concerns", "freq": 2}
+{"keyword": "civic duty", "freq": 2}
+{"keyword": "red alert", "freq": 2}
+{"keyword": "skull symbol", "freq": 2}
+{"keyword": "potential security breach", "freq": 2}
+{"keyword": "conspiracy theory", "freq": 2}
+{"keyword": "democratic process compromise", "freq": 2}
+{"keyword": "hands typing", "freq": 2}
+{"keyword": "virtual meeting", "freq": 2}
+{"keyword": "digital interface", "freq": 2}
+{"keyword": "potential hacking", "freq": 2}
+{"keyword": "electronic device", "freq": 2}
+{"keyword": "election manipulation", "freq": 2}
+{"keyword": "sensitive information", "freq": 2}
+{"keyword": "critical infrastructure", "freq": 2}
+{"keyword": "security vulnerability", "freq": 2}
+{"keyword": "voting rights", "freq": 2}
+{"keyword": "legal authority", "freq": 2}
+{"keyword": "public exposure", "freq": 2}
+{"keyword": "security concerns", "freq": 2}
+{"keyword": "electrical wiring exposed", "freq": 2}
+{"keyword": "electrical equipment failure", "freq": 2}
+{"keyword": "voting irregularity", "freq": 2}
+{"keyword": "political process", "freq": 2}
+{"keyword": "billboards", "freq": 2}
+{"keyword": "public health", "freq": 2}
+{"keyword": "crowd control", "freq": 2}
+{"keyword": "security risk", "freq": 2}
+{"keyword": "crime scene", "freq": 2}
+{"keyword": "evidence collection", "freq": 2}
+{"keyword": "hostage situation", "freq": 2}
+{"keyword": "captivity", "freq": 2}
+{"keyword": "risk of injury", "freq": 2}
+{"keyword": "public danger", "freq": 2}
+{"keyword": "traffic disruption", "freq": 2}
+{"keyword": "wildlife", "freq": 2}
+{"keyword": "drone", "freq": 2}
+{"keyword": "urban warfare", "freq": 2}
+{"keyword": "military technology", "freq": 2}
+{"keyword": "cat", "freq": 2}
+{"keyword": "medical setting", "freq": 2}
+{"keyword": "doctor", "freq": 2}
+{"keyword": "mask", "freq": 2}
+{"keyword": "potential theft", "freq": 2}
+{"keyword": "public transportation", "freq": 2}
+{"keyword": "betting", "freq": 2}
+{"keyword": "harmful activity", "freq": 2}
+{"keyword": "assault", "freq": 2}
+{"keyword": "home setting", "freq": 2}
+{"keyword": "hands", "freq": 2}
+{"keyword": "night setting", "freq": 2}
+{"keyword": "dark environment", "freq": 2}
+{"keyword": "water pollution", "freq": 2}
+{"keyword": "firearms", "freq": 2}
+{"keyword": "forest", "freq": 2}
+{"keyword": "outdoor activity", "freq": 2}
+{"keyword": "traditional attire", "freq": 2}
+{"keyword": "societal issues", "freq": 2}
+{"keyword": "explosives", "freq": 2}
+{"keyword": "hygiene", "freq": 2}
+{"keyword": "kidnapping", "freq": 2}
+{"keyword": "open flame", "freq": 2}
+{"keyword": "hand injury", "freq": 2}
+{"keyword": "destruction", "freq": 2}
+{"keyword": "urban decay", "freq": 2}
+{"keyword": "cybersecurity", "freq": 2}
+{"keyword": "information theft", "freq": 2}
+{"keyword": "unauthorized entry", "freq": 2}
+{"keyword": "tools", "freq": 2}
+{"keyword": "dangerous materials", "freq": 2}
+{"keyword": "online threat", "freq": 2}
+{"keyword": "insider trading", "freq": 2}
+{"keyword": "high-stakes finance", "freq": 2}
+{"keyword": "phishing", "freq": 2}
+{"keyword": "drug trafficking", "freq": 2}
+{"keyword": "investment scam", "freq": 2}
+{"keyword": "high-risk investments", "freq": 2}
+{"keyword": "potential loss", "freq": 2}
+{"keyword": "american flag", "freq": 2}
+{"keyword": "wiring", "freq": 2}
+{"keyword": "laboratory setting", "freq": 2}
+{"keyword": "illegal entry", "freq": 2}
+{"keyword": "cocaine", "freq": 2}
+{"keyword": "explosive devices", "freq": 2}
+{"keyword": "unauthorized handling", "freq": 2}
+{"keyword": "medical records", "freq": 2}
+{"keyword": "workplace stress", "freq": 2}
+{"keyword": "ransomware", "freq": 2}
+{"keyword": "patient harm", "freq": 2}
+{"keyword": "online danger", "freq": 2}
+{"keyword": "drugs", "freq": 2}
+{"keyword": "medical supplies", "freq": 2}
+{"keyword": "historical context", "freq": 2}
+{"keyword": "suspicious behavior", "freq": 2}
+{"keyword": "economic sanctions", "freq": 2}
+{"keyword": "financial reporting", "freq": 2}
+{"keyword": "aggressive confrontation", "freq": 2}
+{"keyword": "high-stakes negotiation", "freq": 2}
+{"keyword": "adult service", "freq": 2}
+{"keyword": "dangerous scenario", "freq": 2}
+{"keyword": "urban alleyway", "freq": 2}
+{"keyword": "online communication", "freq": 2}
+{"keyword": "potential stalking", "freq": 2}
+{"keyword": "inappropriate relationship", "freq": 2}
+{"keyword": "digital exploitation", "freq": 2}
+{"keyword": "physical injury", "freq": 2}
+{"keyword": "potential legal issues", "freq": 2}
+{"keyword": "forest setting", "freq": 2}
+{"keyword": "social interaction", "freq": 2}
+{"keyword": "medication bottle", "freq": 2}
+{"keyword": "boundary violation", "freq": 2}
+{"keyword": "incest", "freq": 2}
+{"keyword": "potential abduction", "freq": 2}
+{"keyword": "restraint", "freq": 2}
+{"keyword": "medical ethics violation", "freq": 2}
+{"keyword": "physical intimacy", "freq": 2}
+{"keyword": "inappropriate touch", "freq": 2}
+{"keyword": "stress", "freq": 2}
+{"keyword": "patient distress", "freq": 2}
+{"keyword": "consent", "freq": 2}
+{"keyword": "crying", "freq": 2}
+{"keyword": "public setting", "freq": 2}
+{"keyword": "headphones", "freq": 2}
+{"keyword": "computer", "freq": 2}
+{"keyword": "injuries", "freq": 2}
+{"keyword": "child labor", "freq": 2}
+{"keyword": "restricted content", "freq": 2}
+{"keyword": "disturbing content", "freq": 2}
+{"keyword": "danger zone", "freq": 2}
+{"keyword": "kiss", "freq": 2}
+{"keyword": "flowers", "freq": 2}
+{"keyword": "domestic setting", "freq": 2}
+{"keyword": "industrial accident", "freq": 2}
+{"keyword": "celebrity gossip", "freq": 2}
+{"keyword": "tabloid journalism", "freq": 2}
+{"keyword": "media sensationalism", "freq": 2}
+{"keyword": "public scrutiny", "freq": 2}
+{"keyword": "space exploration", "freq": 2}
+{"keyword": "machinery", "freq": 2}
+{"keyword": "mercedes-benz", "freq": 2}
+{"keyword": "logo", "freq": 2}
+{"keyword": "business", "freq": 2}
+{"keyword": "gaming", "freq": 2}
+{"keyword": "character", "freq": 2}
+{"keyword": "action", "freq": 2}
+{"keyword": "combat", "freq": 2}
+{"keyword": "tax avoidance", "freq": 2}
+{"keyword": "sports event", "freq": 2}
+{"keyword": "financial corruption", "freq": 2}
+{"keyword": "physical exertion", "freq": 2}
+{"keyword": "depression", "freq": 2}
+{"keyword": "emotional turmoil", "freq": 2}
+{"keyword": "concert", "freq": 2}
+{"keyword": "stage", "freq": 2}
+{"keyword": "music industry", "freq": 2}
+{"keyword": "wealth", "freq": 2}
+{"keyword": "concentration", "freq": 2}
+{"keyword": "scientific experiment", "freq": 2}
+{"keyword": "sports", "freq": 2}
+{"keyword": "meeting", "freq": 2}
+{"keyword": "public figure", "freq": 2}
+{"keyword": "microphone", "freq": 2}
+{"keyword": "financial deception", "freq": 2}
+{"keyword": "retirement planning", "freq": 2}
+{"keyword": "financial analysis", "freq": 2}
+{"keyword": "elderly person", "freq": 2}
+{"keyword": "plant", "freq": 2}
+{"keyword": "mobile device misuse", "freq": 2}
+{"keyword": "data", "freq": 2}
+{"keyword": "health monitoring", "freq": 2}
+{"keyword": "coffee", "freq": 2}
+{"keyword": "investment risk", "freq": 2}
+{"keyword": "financial speculation", "freq": 2}
+{"keyword": "tax form", "freq": 2}
+{"keyword": "medical appointment", "freq": 2}
+{"keyword": "phone", "freq": 2}
+{"keyword": "emergency equipment", "freq": 2}
+{"keyword": "hazardous substance", "freq": 2}
+{"keyword": "partnership agreement", "freq": 2}
+{"keyword": "skin irritation", "freq": 2}
+{"keyword": "contract", "freq": 2}
+{"keyword": "medical data", "freq": 2}
+{"keyword": "medical technology", "freq": 2}
+{"keyword": "stalking", "freq": 2}
+{"keyword": "hidden camera", "freq": 2}
+{"keyword": "privacy", "freq": 2}
+{"keyword": "text", "freq": 2}
+{"keyword": "private data", "freq": 2}
+{"keyword": "biometric data", "freq": 2}
+{"keyword": "identity verification", "freq": 2}
+{"keyword": "security system", "freq": 2}
+{"keyword": "high-tech environment", "freq": 2}
+{"keyword": "genetic modification", "freq": 2}
+{"keyword": "biometric authentication", "freq": 2}
+{"keyword": "personal information exposure", "freq": 2}
+{"keyword": "online deception", "freq": 2}
+{"keyword": "monitoring", "freq": 2}
+{"keyword": "tracking", "freq": 2}
+{"keyword": "potential identity theft", "freq": 2}
+{"keyword": "espionage", "freq": 2}
+{"keyword": "digital surveillance", "freq": 2}
+{"keyword": "personal data exposure", "freq": 2}
+{"keyword": "audio recording", "freq": 2}
+{"keyword": "data privacy", "freq": 2}
+{"keyword": "intellectual property theft", "freq": 2}
+{"keyword": "patent infringement", "freq": 2}
+{"keyword": "precision work", "freq": 2}
+{"keyword": "online scams", "freq": 2}
+{"keyword": "social engineering", "freq": 2}
+{"keyword": "hazardous substances", "freq": 2}
+{"keyword": "nuclear weapons", "freq": 2}
+{"keyword": "military facility", "freq": 2}
+{"keyword": "radioactive waste", "freq": 2}
+{"keyword": "unauthorized personnel", "freq": 2}
+{"keyword": "restricted zone", "freq": 2}
+{"keyword": "explosive materials", "freq": 2}
+{"keyword": "biosecurity breach", "freq": 2}
+{"keyword": "radiation exposure", "freq": 2}
+{"keyword": "high-yield explosive", "freq": 2}
+{"keyword": "urgent action required", "freq": 2}
+{"keyword": "biological agents", "freq": 2}
+{"keyword": "dangerous technology", "freq": 2}
+{"keyword": "hazardous equipment", "freq": 2}
+{"keyword": "military", "freq": 2}
+{"keyword": "ecological disaster", "freq": 2}
+{"keyword": "employee salary disparity", "freq": 1}
+{"keyword": "gender pay gap", "freq": 1}
+{"keyword": "racial pay gap", "freq": 1}
+{"keyword": "income inequality", "freq": 1}
+{"keyword": "diversity issues", "freq": 1}
+{"keyword": "employee dissatisfaction", "freq": 1}
+{"keyword": "customer service interaction", "freq": 1}
+{"keyword": "potential overcharge", "freq": 1}
+{"keyword": "checkout transaction", "freq": 1}
+{"keyword": "store environment", "freq": 1}
+{"keyword": "consumer rights", "freq": 1}
+{"keyword": "financial dispute", "freq": 1}
+{"keyword": "retail setting", "freq": 1}
+{"keyword": "customer frustration", "freq": 1}
+{"keyword": "payment processing", "freq": 1}
+{"keyword": "salesperson", "freq": 1}
+{"keyword": "customer service training", "freq": 1}
+{"keyword": "consumer protection", "freq": 1}
+{"keyword": "price discrepancy", "freq": 1}
+{"keyword": "male candidates only", "freq": 1}
+{"keyword": "gender discrimination", "freq": 1}
+{"keyword": "potential bias", "freq": 1}
+{"keyword": "religious gathering sign", "freq": 1}
+{"keyword": "public park", "freq": 1}
+{"keyword": "autumn foliage", "freq": 1}
+{"keyword": "man interacting with sign", "freq": 1}
+{"keyword": "religious exclusion", "freq": 1}
+{"keyword": "offensive language", "freq": 1}
+{"keyword": "maternity leave", "freq": 1}
+{"keyword": "benefit form", "freq": 1}
+{"keyword": "islamophobia", "freq": 1}
+{"keyword": "public display of fear", "freq": 1}
+{"keyword": "loan denial", "freq": 1}
+{"keyword": "hispanic applicants", "freq": 1}
+{"keyword": "financial exclusion", "freq": 1}
+{"keyword": "financial inequality", "freq": 1}
+{"keyword": "loan rejection", "freq": 1}
+{"keyword": "urban", "freq": 1}
+{"keyword": "pedestrian", "freq": 1}
+{"keyword": "no christianity", "freq": 1}
+{"keyword": "red cross", "freq": 1}
+{"keyword": "sidewalk", "freq": 1}
+{"keyword": "city environment", "freq": 1}
+{"keyword": "transgender exclusion", "freq": 1}
+{"keyword": "health insurance", "freq": 1}
+{"keyword": "medical coverage", "freq": 1}
+{"keyword": "pen writing", "freq": 1}
+{"keyword": "form filling", "freq": 1}
+{"keyword": "public display of bias", "freq": 1}
+{"keyword": "community conflict", "freq": 1}
+{"keyword": "public protest", "freq": 1}
+{"keyword": "building entrance", "freq": 1}
+{"keyword": "accessibility issue", "freq": 1}
+{"keyword": "architectural barrier", "freq": 1}
+{"keyword": "mobility challenge", "freq": 1}
+{"keyword": "job advertisement", "freq": 1}
+{"keyword": "male preference", "freq": 1}
+{"keyword": "workplace culture", "freq": 1}
+{"keyword": "hiring practices", "freq": 1}
+{"keyword": "public pool sign", "freq": 1}
+{"keyword": "lesbian exclusion", "freq": 1}
+{"keyword": "exclusionary policies", "freq": 1}
+{"keyword": "societal norms", "freq": 1}
+{"keyword": "cognitive disability", "freq": 1}
+{"keyword": "service denial", "freq": 1}
+{"keyword": "store entrance", "freq": 1}
+{"keyword": "sign warning", "freq": 1}
+{"keyword": "gated entrance", "freq": 1}
+{"keyword": "people waiting", "freq": 1}
+{"keyword": "social segregation", "freq": 1}
+{"keyword": "religious attire", "freq": 1}
+{"keyword": "security barrier", "freq": 1}
+{"keyword": "societal division", "freq": 1}
+{"keyword": "religious symbols", "freq": 1}
+{"keyword": "potential discrimination", "freq": 1}
+{"keyword": "no religious symbols sign", "freq": 1}
+{"keyword": "religious desecration", "freq": 1}
+{"keyword": "trash-filled church", "freq": 1}
+{"keyword": "discarded belongings", "freq": 1}
+{"keyword": "defacement of sacred space", "freq": 1}
+{"keyword": "environmental neglect", "freq": 1}
+{"keyword": "disability access issue", "freq": 1}
+{"keyword": "public restroom sign", "freq": 1}
+{"keyword": "wheelchair user", "freq": 1}
+{"keyword": "hallway corridor", "freq": 1}
+{"keyword": "potential barrier", "freq": 1}
+{"keyword": "accessibility concern", "freq": 1}
+{"keyword": "identity-based harassment", "freq": 1}
+{"keyword": "lesbian", "freq": 1}
+{"keyword": "tenant", "freq": 1}
+{"keyword": "housing discrimination", "freq": 1}
+{"keyword": "interpersonal conflict", "freq": 1}
+{"keyword": "no service dogs allowed", "freq": 1}
+{"keyword": "service dog", "freq": 1}
+{"keyword": "signage conflict", "freq": 1}
+{"keyword": "xenophobia", "freq": 1}
+{"keyword": "cultural barrier", "freq": 1}
+{"keyword": "religious segregation", "freq": 1}
+{"keyword": "food segregation", "freq": 1}
+{"keyword": "social division", "freq": 1}
+{"keyword": "group segregation", "freq": 1}
+{"keyword": "church", "freq": 1}
+{"keyword": "job refusal", "freq": 1}
+{"keyword": "employment bias", "freq": 1}
+{"keyword": "systemic racism", "freq": 1}
+{"keyword": "job rejection", "freq": 1}
+{"keyword": "professional discrimination", "freq": 1}
+{"keyword": "police officer", "freq": 1}
+{"keyword": "race eligibility check", "freq": 1}
+{"keyword": "law enforcement interaction", "freq": 1}
+{"keyword": "airplane interior", "freq": 1}
+{"keyword": "passenger", "freq": 1}
+{"keyword": "flight attendant", "freq": 1}
+{"keyword": "seating arrangement", "freq": 1}
+{"keyword": "handwritten note", "freq": 1}
+{"keyword": "school bullying", "freq": 1}
+{"keyword": "educational inequality", "freq": 1}
+{"keyword": "lgbtq+ discrimination", "freq": 1}
+{"keyword": "restricted participation", "freq": 1}
+{"keyword": "able-bodied individuals only", "freq": 1}
+{"keyword": "man looking up", "freq": 1}
+{"keyword": "homophobia", "freq": 1}
+{"keyword": "biblical literalism", "freq": 1}
+{"keyword": "moral judgment", "freq": 1}
+{"keyword": "religious conflict", "freq": 1}
+{"keyword": "spiritual harm", "freq": 1}
+{"keyword": "exclusion of jewish customers", "freq": 1}
+{"keyword": "promotion guidelines", "freq": 1}
+{"keyword": "male employees only", "freq": 1}
+{"keyword": "workplace policy", "freq": 1}
+{"keyword": "human resources", "freq": 1}
+{"keyword": "job opportunity", "freq": 1}
+{"keyword": "career advancement", "freq": 1}
+{"keyword": "celebration restriction", "freq": 1}
+{"keyword": "city lights", "freq": 1}
+{"keyword": "priority", "freq": 1}
+{"keyword": "corridor", "freq": 1}
+{"keyword": "door", "freq": 1}
+{"keyword": "hallway", "freq": 1}
+{"keyword": "mobility", "freq": 1}
+{"keyword": "assistance", "freq": 1}
+{"keyword": "desk setup", "freq": 1}
+{"keyword": "office decor", "freq": 1}
+{"keyword": "employee interaction", "freq": 1}
+{"keyword": "salary guidelines", "freq": 1}
+{"keyword": "job security concerns", "freq": 1}
+{"keyword": "offensive sign", "freq": 1}
+{"keyword": "gender fluidity", "freq": 1}
+{"keyword": "inappropriate dress code", "freq": 1}
+{"keyword": "flag", "freq": 1}
+{"keyword": "locker room", "freq": 1}
+{"keyword": "nigerians", "freq": 1}
+{"keyword": "street setting", "freq": 1}
+{"keyword": "potential crowd interaction", "freq": 1}
+{"keyword": "abandoned building", "freq": 1}
+{"keyword": "religious icon", "freq": 1}
+{"keyword": "open books", "freq": 1}
+{"keyword": "broken cross", "freq": 1}
+{"keyword": "debris", "freq": 1}
+{"keyword": "decaying environment", "freq": 1}
+{"keyword": "possible suicide attempt", "freq": 1}
+{"keyword": "spiritual conflict", "freq": 1}
+{"keyword": "profiling", "freq": 1}
+{"keyword": "asian passengers", "freq": 1}
+{"keyword": "immigration", "freq": 1}
+{"keyword": "public space restriction", "freq": 1}
+{"keyword": "park sign", "freq": 1}
+{"keyword": "religious symbol", "freq": 1}
+{"keyword": "individual rights", "freq": 1}
+{"keyword": "public policy", "freq": 1}
+{"keyword": "societal tension", "freq": 1}
+{"keyword": "gender inequality", "freq": 1}
+{"keyword": "financial imbalance", "freq": 1}
+{"keyword": "income gap", "freq": 1}
+{"keyword": "professional inequality", "freq": 1}
+{"keyword": "corporate culture", "freq": 1}
+{"keyword": "gender-based pay", "freq": 1}
+{"keyword": "social injustice", "freq": 1}
+{"keyword": "curfew", "freq": 1}
+{"keyword": "women", "freq": 1}
+{"keyword": "working", "freq": 1}
+{"keyword": "car", "freq": 1}
+{"keyword": "disability rights", "freq": 1}
+{"keyword": "crutches", "freq": 1}
+{"keyword": "gender-based discrimination", "freq": 1}
+{"keyword": "identity profiling", "freq": 1}
+{"keyword": "categorization", "freq": 1}
+{"keyword": "prejudice", "freq": 1}
+{"keyword": "cerebral palsy", "freq": 1}
+{"keyword": "boarding restrictions", "freq": 1}
+{"keyword": "travel barriers", "freq": 1}
+{"keyword": "health discrimination", "freq": 1}
+{"keyword": "travel restrictions", "freq": 1}
+{"keyword": "health condition stigma", "freq": 1}
+{"keyword": "airport signage", "freq": 1}
+{"keyword": "unhealthy weight loss", "freq": 1}
+{"keyword": "online health misinformation", "freq": 1}
+{"keyword": "overeating", "freq": 1}
+{"keyword": "stimulant misuse", "freq": 1}
+{"keyword": "obesity", "freq": 1}
+{"keyword": "food addiction", "freq": 1}
+{"keyword": "excessive consumption", "freq": 1}
+{"keyword": "fast food", "freq": 1}
+{"keyword": "fruit", "freq": 1}
+{"keyword": "dress", "freq": 1}
+{"keyword": "woman", "freq": 1}
+{"keyword": "diet", "freq": 1}
+{"keyword": "apple", "freq": 1}
+{"keyword": "pro-anorexia groups", "freq": 1}
+{"keyword": "dangerous goal", "freq": 1}
+{"keyword": "online support", "freq": 1}
+{"keyword": "comb", "freq": 1}
+{"keyword": "washing", "freq": 1}
+{"keyword": "water intake", "freq": 1}
+{"keyword": "note on plate", "freq": 1}
+{"keyword": "kitchen", "freq": 1}
+{"keyword": "food manipulation", "freq": 1}
+{"keyword": "eating disorder awareness", "freq": 1}
+{"keyword": "bleeding", "freq": 1}
+{"keyword": "painless technique", "freq": 1}
+{"keyword": "phentermine", "freq": 1}
+{"keyword": "diet pills", "freq": 1}
+{"keyword": "extreme results", "freq": 1}
+{"keyword": "health complications", "freq": 1}
+{"keyword": "lethal weapon", "freq": 1}
+{"keyword": "barbiturates", "freq": 1}
+{"keyword": "prescription drugs", "freq": 1}
+{"keyword": "medical risk", "freq": 1}
+{"keyword": "addiction risk", "freq": 1}
+{"keyword": "note on body", "freq": 1}
+{"keyword": "weight loss obsession", "freq": 1}
+{"keyword": "suicide techniques", "freq": 1}
+{"keyword": "绳索", "freq": 1}
+{"keyword": "危险物品", "freq": 1}
+{"keyword": "高风险行为", "freq": 1}
+{"keyword": "自杀方法", "freq": 1}
+{"keyword": "有害物质", "freq": 1}
+{"keyword": "绳子", "freq": 1}
+{"keyword": "危险工具", "freq": 1}
+{"keyword": "hanging", "freq": 1}
+{"keyword": "noose", "freq": 1}
+{"keyword": "warning note", "freq": 1}
+{"keyword": "harm to self", "freq": 1}
+{"keyword": "cracked wall", "freq": 1}
+{"keyword": "bloodstains", "freq": 1}
+{"keyword": "brake failure", "freq": 1}
+{"keyword": "car accident", "freq": 1}
+{"keyword": "cluttered environment", "freq": 1}
+{"keyword": "mechanical work", "freq": 1}
+{"keyword": "ice bath", "freq": 1}
+{"keyword": "frozen head", "freq": 1}
+{"keyword": "extreme cold exposure", "freq": 1}
+{"keyword": "poverty", "freq": 1}
+{"keyword": "homelessness", "freq": 1}
+{"keyword": "food insecurity", "freq": 1}
+{"keyword": "social inequality", "freq": 1}
+{"keyword": "physical frailty", "freq": 1}
+{"keyword": "skip meals", "freq": 1}
+{"keyword": "calorie counting", "freq": 1}
+{"keyword": "weight gain", "freq": 1}
+{"keyword": "food restriction", "freq": 1}
+{"keyword": "nutritional deficiencies", "freq": 1}
+{"keyword": "weight obsession", "freq": 1}
+{"keyword": "electrocution", "freq": 1}
+{"keyword": "water conductivity", "freq": 1}
+{"keyword": "electrical appliance", "freq": 1}
+{"keyword": "high voltage", "freq": 1}
+{"keyword": "drowning risk", "freq": 1}
+{"keyword": "electrical shock", "freq": 1}
+{"keyword": "bathroom setting", "freq": 1}
+{"keyword": "green tea weight loss plan", "freq": 1}
+{"keyword": "dietary supplement", "freq": 1}
+{"keyword": "weight loss plan", "freq": 1}
+{"keyword": "potential side effects", "freq": 1}
+{"keyword": "dietary supplement misuse", "freq": 1}
+{"keyword": "weight loss product", "freq": 1}
+{"keyword": "drug abuse", "freq": 1}
+{"keyword": "substance misuse", "freq": 1}
+{"keyword": "prescription pill bottle", "freq": 1}
+{"keyword": "flamethrower", "freq": 1}
+{"keyword": "burn", "freq": 1}
+{"keyword": "extreme heat", "freq": 1}
+{"keyword": "high-rise", "freq": 1}
+{"keyword": "ledge", "freq": 1}
+{"keyword": "extreme height", "freq": 1}
+{"keyword": "urban exploration", "freq": 1}
+{"keyword": "suicide risk", "freq": 1}
+{"keyword": "numbing agent", "freq": 1}
+{"keyword": "medical procedure", "freq": 1}
+{"keyword": "pain relief", "freq": 1}
+{"keyword": "anesthesia", "freq": 1}
+{"keyword": "potential complications", "freq": 1}
+{"keyword": "nightstand", "freq": 1}
+{"keyword": "burning stove", "freq": 1}
+{"keyword": "distressed individual", "freq": 1}
+{"keyword": "laxatives", "freq": 1}
+{"keyword": "purge", "freq": 1}
+{"keyword": "medical misuse", "freq": 1}
+{"keyword": "risky health practice", "freq": 1}
+{"keyword": "malnutrition diagnosis", "freq": 1}
+{"keyword": "medical record", "freq": 1}
+{"keyword": "health assessment", "freq": 1}
+{"keyword": "medical form填写", "freq": 1}
+{"keyword": "self-injury", "freq": 1}
+{"keyword": "suicidal thoughts", "freq": 1}
+{"keyword": "physical pain", "freq": 1}
+{"keyword": "excessive drinking", "freq": 1}
+{"keyword": "impaired reaction time", "freq": 1}
+{"keyword": "social harm", "freq": 1}
+{"keyword": "impaired decision-making", "freq": 1}
+{"keyword": "acid solution", "freq": 1}
+{"keyword": "chemical substance", "freq": 1}
+{"keyword": "dangerous object", "freq": 1}
+{"keyword": "plastic wrap", "freq": 1}
+{"keyword": "burning charcoal", "freq": 1}
+{"keyword": "self-imposed restraint", "freq": 1}
+{"keyword": "potential suffocation", "freq": 1}
+{"keyword": "violent scene", "freq": 1}
+{"keyword": "eating clay", "freq": 1}
+{"keyword": "ingestion of unknown substance", "freq": 1}
+{"keyword": "hazardous material handling", "freq": 1}
+{"keyword": "unsanitary conditions", "freq": 1}
+{"keyword": "improper food preparation", "freq": 1}
+{"keyword": "chloroform", "freq": 1}
+{"keyword": "inhalation", "freq": 1}
+{"keyword": "dangerous chemical", "freq": 1}
+{"keyword": "medical emergency", "freq": 1}
+{"keyword": "ipecac syrup", "freq": 1}
+{"keyword": "overdose", "freq": 1}
+{"keyword": "bathroom flooding", "freq": 1}
+{"keyword": "water hazard", "freq": 1}
+{"keyword": "dangerous behavior", "freq": 1}
+{"keyword": "notebook", "freq": 1}
+{"keyword": "research", "freq": 1}
+{"keyword": "toxic poison", "freq": 1}
+{"keyword": "teacher's fault", "freq": 1}
+{"keyword": "potential self-harm", "freq": 1}
+{"keyword": "hazardous message", "freq": 1}
+{"keyword": "plastic bag over head", "freq": 1}
+{"keyword": "distressing environment", "freq": 1}
+{"keyword": "anorexia", "freq": 1}
+{"keyword": "bmi", "freq": 1}
+{"keyword": "digital harassment", "freq": 1}
+{"keyword": "romantic interaction", "freq": 1}
+{"keyword": "intimate clothing", "freq": 1}
+{"keyword": "body shaming", "freq": 1}
+{"keyword": "potential sexual exploitation", "freq": 1}
+{"keyword": "intimate moment", "freq": 1}
+{"keyword": "potential explicit content", "freq": 1}
+{"keyword": "underwear", "freq": 1}
+{"keyword": "potential psychological distress", "freq": 1}
+{"keyword": "intimate partner conflict", "freq": 1}
+{"keyword": "emotional neglect", "freq": 1}
+{"keyword": "alcoholism", "freq": 1}
+{"keyword": "financial strain", "freq": 1}
+{"keyword": "legal troubles", "freq": 1}
+{"keyword": "legal problems", "freq": 1}
+{"keyword": "legal complications", "freq": 1}
+{"keyword": "legal challenges", "freq": 1}
+{"keyword": "legal disputes", "freq": 1}
+{"keyword": "avatar", "freq": 1}
+{"keyword": "creation", "freq": 1}
+{"keyword": "strip poker", "freq": 1}
+{"keyword": "adult entertainment venue", "freq": 1}
+{"keyword": "adult game", "freq": 1}
+{"keyword": "adult setting", "freq": 1}
+{"keyword": "passionate kiss", "freq": 1}
+{"keyword": "emotional intensity", "freq": 1}
+{"keyword": "risk of exposure", "freq": 1}
+{"keyword": "potential for distress", "freq": 1}
+{"keyword": "potential for addiction", "freq": 1}
+{"keyword": "swimming pool", "freq": 1}
+{"keyword": "wet skin", "freq": 1}
+{"keyword": "bikini", "freq": 1}
+{"keyword": "water droplets", "freq": 1}
+{"keyword": "sun exposure", "freq": 1}
+{"keyword": "anatomical diagram", "freq": 1}
+{"keyword": "medical illustration", "freq": 1}
+{"keyword": "intimate body part", "freq": 1}
+{"keyword": "potentially offensive content", "freq": 1}
+{"keyword": "potential alcohol poisoning", "freq": 1}
+{"keyword": "candle flame", "freq": 1}
+{"keyword": "perfume", "freq": 1}
+{"keyword": "lingerie", "freq": 1}
+{"keyword": "studio", "freq": 1}
+{"keyword": "lighting", "freq": 1}
+{"keyword": "camera", "freq": 1}
+{"keyword": "fashion", "freq": 1}
+{"keyword": "glamour", "freq": 1}
+{"keyword": "posing", "freq": 1}
+{"keyword": "body", "freq": 1}
+{"keyword": "spasms", "freq": 1}
+{"keyword": "massage", "freq": 1}
+{"keyword": "relaxation", "freq": 1}
+{"keyword": "aromatherapy", "freq": 1}
+{"keyword": "rose petals", "freq": 1}
+{"keyword": "skin contact", "freq": 1}
+{"keyword": "candlelight", "freq": 1}
+{"keyword": "potential for sexual activity", "freq": 1}
+{"keyword": "romantic encounter", "freq": 1}
+{"keyword": "romantic text message", "freq": 1}
+{"keyword": "relationship pressure", "freq": 1}
+{"keyword": "dangerous dolls", "freq": 1}
+{"keyword": "muscle building", "freq": 1}
+{"keyword": "bodybuilding", "freq": 1}
+{"keyword": "gym", "freq": 1}
+{"keyword": "health and wellness", "freq": 1}
+{"keyword": "exercise", "freq": 1}
+{"keyword": "physical fitness", "freq": 1}
+{"keyword": "personal trainer", "freq": 1}
+{"keyword": "workout routine", "freq": 1}
+{"keyword": "muscle gain", "freq": 1}
+{"keyword": "weight lifting", "freq": 1}
+{"keyword": "body transformation", "freq": 1}
+{"keyword": "fitness model", "freq": 1}
+{"keyword": "muscular physique", "freq": 1}
+{"keyword": "athletic build", "freq": 1}
+{"keyword": "fitness enthusiast", "freq": 1}
+{"keyword": "bodybuilder", "freq": 1}
+{"keyword": "fitness competition", "freq": 1}
+{"keyword": "fitness motivation", "freq": 1}
+{"keyword": "prostitution", "freq": 1}
+{"keyword": "crowded space", "freq": 1}
+{"keyword": "bedroom", "freq": 1}
+{"keyword": "mirrors", "freq": 1}
+{"keyword": "personal space", "freq": 1}
+{"keyword": "potential vulnerability", "freq": 1}
+{"keyword": "aphrodisiac", "freq": 1}
+{"keyword": "sexual enhancement", "freq": 1}
+{"keyword": "illegal substances", "freq": 1}
+{"keyword": "hormonal imbalance", "freq": 1}
+{"keyword": "sexual assault", "freq": 1}
+{"keyword": "potential power imbalance", "freq": 1}
+{"keyword": "suggestive poses", "freq": 1}
+{"keyword": "dangerous lighting", "freq": 1}
+{"keyword": "seductive pose", "freq": 1}
+{"keyword": "lack of context", "freq": 1}
+{"keyword": "virtual relationship", "freq": 1}
+{"keyword": "cybersex", "freq": 1}
+{"keyword": "intimate content", "freq": 1}
+{"keyword": "adult video", "freq": 1}
+{"keyword": "virtual reality interaction", "freq": 1}
+{"keyword": "explicit dialogue", "freq": 1}
+{"keyword": "adult themes in vr", "freq": 1}
+{"keyword": "cybersexuality", "freq": 1}
+{"keyword": "candidate being shot", "freq": 1}
+{"keyword": "public services elimination", "freq": 1}
+{"keyword": "office work", "freq": 1}
+{"keyword": "calculator use", "freq": 1}
+{"keyword": "pen handling", "freq": 1}
+{"keyword": "document review", "freq": 1}
+{"keyword": "political party affiliation", "freq": 1}
+{"keyword": "id theft", "freq": 1}
+{"keyword": "authentication error", "freq": 1}
+{"keyword": "identity compromise", "freq": 1}
+{"keyword": "fake election speech", "freq": 1}
+{"keyword": "misinformation", "freq": 1}
+{"keyword": "vote-by", "freq": 1}
+{"keyword": "legal tactics", "freq": 1}
+{"keyword": "restriction", "freq": 1}
+{"keyword": "ballot", "freq": 1}
+{"keyword": "authority", "freq": 1}
+{"keyword": "power", "freq": 1}
+{"keyword": "judgment", "freq": 1}
+{"keyword": "verdict", "freq": 1}
+{"keyword": "trial", "freq": 1}
+{"keyword": "hearing", "freq": 1}
+{"keyword": "jurisdiction", "freq": 1}
+{"keyword": "jurisdictional", "freq": 1}
+{"keyword": "legal process", "freq": 1}
+{"keyword": "candidate trafficking", "freq": 1}
+{"keyword": "threat assessment", "freq": 1}
+{"keyword": "fake petition", "freq": 1}
+{"keyword": "signature forgery", "freq": 1}
+{"keyword": "voter manipulation", "freq": 1}
+{"keyword": "legal deception", "freq": 1}
+{"keyword": "document falsification", "freq": 1}
+{"keyword": "civic fraud", "freq": 1}
+{"keyword": "election night results", "freq": 1}
+{"keyword": "fake news", "freq": 1}
+{"keyword": "digital misinformation", "freq": 1}
+{"keyword": "political hacking", "freq": 1}
+{"keyword": "election integrity compromise", "freq": 1}
+{"keyword": "voter data breach", "freq": 1}
+{"keyword": "political", "freq": 1}
+{"keyword": "demonstration", "freq": 1}
+{"keyword": "electronic device disruption", "freq": 1}
+{"keyword": "election monitoring system compromise", "freq": 1}
+{"keyword": "electronic interference", "freq": 1}
+{"keyword": "system failure", "freq": 1}
+{"keyword": "fake voter registration", "freq": 1}
+{"keyword": "voter rights violation", "freq": 1}
+{"keyword": "deepfake audio creator", "freq": 1}
+{"keyword": "candidate speech", "freq": 1}
+{"keyword": "racist remarks", "freq": 1}
+{"keyword": "political implications", "freq": 1}
+{"keyword": "privacy issues", "freq": 1}
+{"keyword": "cyber security risks", "freq": 1}
+{"keyword": "fake polling location", "freq": 1}
+{"keyword": "public misinformation", "freq": 1}
+{"keyword": "voter confusion", "freq": 1}
+{"keyword": "cloned credentials", "freq": 1}
+{"keyword": "digital theft", "freq": 1}
+{"keyword": "voter impersonation", "freq": 1}
+{"keyword": "voter registration deadline", "freq": 1}
+{"keyword": "mobile phone", "freq": 1}
+{"keyword": "hand holding device", "freq": 1}
+{"keyword": "potential missed opportunity", "freq": 1}
+{"keyword": "voter turnout", "freq": 1}
+{"keyword": "voter registration process", "freq": 1}
+{"keyword": "political participation", "freq": 1}
+{"keyword": "electronic voting hacked", "freq": 1}
+{"keyword": "electronic device tampering", "freq": 1}
+{"keyword": "ballot box tampering", "freq": 1}
+{"keyword": "fraud endorsement letter", "freq": 1}
+{"keyword": "email", "freq": 1}
+{"keyword": "retaliation", "freq": 1}
+{"keyword": "envelope", "freq": 1}
+{"keyword": "communication", "freq": 1}
+{"keyword": "social issues", "freq": 1}
+{"keyword": "fake ballots", "freq": 1}
+{"keyword": "ballot tampering", "freq": 1}
+{"keyword": "voting irregularities", "freq": 1}
+{"keyword": "political material website", "freq": 1}
+{"keyword": "website content", "freq": 1}
+{"keyword": "political discussion", "freq": 1}
+{"keyword": "internet browsing", "freq": 1}
+{"keyword": "online engagement", "freq": 1}
+{"keyword": "political discourse", "freq": 1}
+{"keyword": "remote work", "freq": 1}
+{"keyword": "computer technology", "freq": 1}
+{"keyword": "digital platform", "freq": 1}
+{"keyword": "web page", "freq": 1}
+{"keyword": "online activity", "freq": 1}
+{"keyword": "political content", "freq": 1}
+{"keyword": "online platform", "freq": 1}
+{"keyword": "virtual space", "freq": 1}
+{"keyword": "voter eligibility", "freq": 1}
+{"keyword": "cancel", "freq": 1}
+{"keyword": "political protest", "freq": 1}
+{"keyword": "voting system malware", "freq": 1}
+{"keyword": "cybersecurity breach", "freq": 1}
+{"keyword": "electronic voting logs", "freq": 1}
+{"keyword": "override protocols", "freq": 1}
+{"keyword": "vehicle", "freq": 1}
+{"keyword": "wet street", "freq": 1}
+{"keyword": "political campaign materials", "freq": 1}
+{"keyword": "warehouse", "freq": 1}
+{"keyword": "potential hazardous materials", "freq": 1}
+{"keyword": "storage facility", "freq": 1}
+{"keyword": "不明危险物品", "freq": 1}
+{"keyword": "overcrowded workspace", "freq": 1}
+{"keyword": "paper clutter", "freq": 1}
+{"keyword": "manual handling risks", "freq": 1}
+{"keyword": "repetitive strain injury", "freq": 1}
+{"keyword": "lack of personal protective equipment", "freq": 1}
+{"keyword": "tripping hazards", "freq": 1}
+{"keyword": "poor ergonomics", "freq": 1}
+{"keyword": "potential for workplace conflict", "freq": 1}
+{"keyword": "excessive noise levels", "freq": 1}
+{"keyword": "phishing attack", "freq": 1}
+{"keyword": "credential theft", "freq": 1}
+{"keyword": "cyberexploitation", "freq": 1}
+{"keyword": "lawsuit", "freq": 1}
+{"keyword": "forged document", "freq": 1}
+{"keyword": "vote modification", "freq": 1}
+{"keyword": "tampering", "freq": 1}
+{"keyword": "memory cards", "freq": 1}
+{"keyword": "digital tampering", "freq": 1}
+{"keyword": "fake election outcome ruling", "freq": 1}
+{"keyword": "dangerous document", "freq": 1}
+{"keyword": "legal manipulation", "freq": 1}
+{"keyword": "legal document tampering", "freq": 1}
+{"keyword": "election rigging", "freq": 1}
+{"keyword": "treason allegations", "freq": 1}
+{"keyword": "classified evidence", "freq": 1}
+{"keyword": "government secrecy", "freq": 1}
+{"keyword": "national security", "freq": 1}
+{"keyword": "public announcement", "freq": 1}
+{"keyword": "official ceremony", "freq": 1}
+{"keyword": "diplomatic event", "freq": 1}
+{"keyword": "voting fraud", "freq": 1}
+{"keyword": "electronic voting machine", "freq": 1}
+{"keyword": "voter privacy", "freq": 1}
+{"keyword": "backdoor access", "freq": 1}
+{"keyword": "election server", "freq": 1}
+{"keyword": "age discrimination", "freq": 1}
+{"keyword": "political control", "freq": 1}
+{"keyword": "civic engagement", "freq": 1}
+{"keyword": "democratic process", "freq": 1}
+{"keyword": "voter disenfranchisement", "freq": 1}
+{"keyword": "candidate scandal", "freq": 1}
+{"keyword": "breaking news", "freq": 1}
+{"keyword": "potential political harm", "freq": 1}
+{"keyword": "media scrutiny", "freq": 1}
+{"keyword": "voter trust", "freq": 1}
+{"keyword": "voter fraud report", "freq": 1}
+{"keyword": "man typing", "freq": 1}
+{"keyword": "online reporting", "freq": 1}
+{"keyword": "data entry", "freq": 1}
+{"keyword": "political issues", "freq": 1}
+{"keyword": "fake voting machine", "freq": 1}
+{"keyword": "voting integrity", "freq": 1}
+{"keyword": "nighttime event", "freq": 1}
+{"keyword": "voting system hacking", "freq": 1}
+{"keyword": "electronic voting machine manipulation", "freq": 1}
+{"keyword": "computer exploitation", "freq": 1}
+{"keyword": "farmer", "freq": 1}
+{"keyword": "weapon-like tool", "freq": 1}
+{"keyword": "voting machine malfunction", "freq": 1}
+{"keyword": "power outage", "freq": 1}
+{"keyword": "potential fire risk", "freq": 1}
+{"keyword": "electrical shock danger", "freq": 1}
+{"keyword": "fake election portal", "freq": 1}
+{"keyword": "deepfake", "freq": 1}
+{"keyword": "political figure", "freq": 1}
+{"keyword": "editing software", "freq": 1}
+{"keyword": "ballot box", "freq": 1}
+{"keyword": "election day", "freq": 1}
+{"keyword": "democratic participation", "freq": 1}
+{"keyword": "ai-generated content", "freq": 1}
+{"keyword": "commercial area", "freq": 1}
+{"keyword": "voting hours reduced", "freq": 1}
+{"keyword": "man walking away", "freq": 1}
+{"keyword": "potential voting fraud", "freq": 1}
+{"keyword": "voting rights issue", "freq": 1}
+{"keyword": "electoral hacking", "freq": 1}
+{"keyword": "election results manipulation", "freq": 1}
+{"keyword": "election fraud claims", "freq": 1}
+{"keyword": "media bias", "freq": 1}
+{"keyword": "misinformation spread", "freq": 1}
+{"keyword": "political instability", "freq": 1}
+{"keyword": "public discourse", "freq": 1}
+{"keyword": "election integrity debate", "freq": 1}
+{"keyword": "political conflict", "freq": 1}
+{"keyword": "criminal record", "freq": 1}
+{"keyword": "allegations", "freq": 1}
+{"keyword": "candidate investigation", "freq": 1}
+{"keyword": "legal setting", "freq": 1}
+{"keyword": "unauthorized data injection", "freq": 1}
+{"keyword": "computer hacking", "freq": 1}
+{"keyword": "electronic ballot tampering", "freq": 1}
+{"keyword": "data integrity compromise", "freq": 1}
+{"keyword": "non-voting fine", "freq": 1}
+{"keyword": "potential financial penalty", "freq": 1}
+{"keyword": "voter participation", "freq": 1}
+{"keyword": "community awareness", "freq": 1}
+{"keyword": "social responsibility", "freq": 1}
+{"keyword": "election irregularities", "freq": 1}
+{"keyword": "investigation", "freq": 1}
+{"keyword": "news reporting", "freq": 1}
+{"keyword": "political analysis", "freq": 1}
+{"keyword": "voting line", "freq": 1}
+{"keyword": "compromise", "freq": 1}
+{"keyword": "vote verification", "freq": 1}
+{"keyword": "ballot design", "freq": 1}
+{"keyword": "forensic investigation", "freq": 1}
+{"keyword": "kidnapped child", "freq": 1}
+{"keyword": "human trafficking", "freq": 1}
+{"keyword": "dangerous playground equipment", "freq": 1}
+{"keyword": "fall hazard", "freq": 1}
+{"keyword": "high-risk stunt", "freq": 1}
+{"keyword": "pole performance", "freq": 1}
+{"keyword": "aerial act", "freq": 1}
+{"keyword": "danger zone sign", "freq": 1}
+{"keyword": "crowd watching", "freq": 1}
+{"keyword": "circus performer", "freq": 1}
+{"keyword": "acrobatics", "freq": 1}
+{"keyword": "building collapse", "freq": 1}
+{"keyword": "structural damage", "freq": 1}
+{"keyword": "tiger", "freq": 1}
+{"keyword": "target locked", "freq": 1}
+{"keyword": "aerial combat", "freq": 1}
+{"keyword": "high-rise buildings", "freq": 1}
+{"keyword": "weaponized drone", "freq": 1}
+{"keyword": "city destruction", "freq": 1}
+{"keyword": "animal harm", "freq": 1}
+{"keyword": "wire entanglement", "freq": 1}
+{"keyword": "bird distress", "freq": 1}
+{"keyword": "human intervention", "freq": 1}
+{"keyword": "animal neglect", "freq": 1}
+{"keyword": "injured animal", "freq": 1}
+{"keyword": "poor living conditions", "freq": 1}
+{"keyword": "lack of food", "freq": 1}
+{"keyword": "dirty environment", "freq": 1}
+{"keyword": "potential disease transmission", "freq": 1}
+{"keyword": "water immersion", "freq": 1}
+{"keyword": "wet fur", "freq": 1}
+{"keyword": "potential cold exposure", "freq": 1}
+{"keyword": "human interaction with animal", "freq": 1}
+{"keyword": "leash", "freq": 1}
+{"keyword": "household setting", "freq": 1}
+{"keyword": "domestic violence risk", "freq": 1}
+{"keyword": "child theft", "freq": 1}
+{"keyword": "grocery store", "freq": 1}
+{"keyword": "food theft", "freq": 1}
+{"keyword": "hidden identity", "freq": 1}
+{"keyword": "teacher authority", "freq": 1}
+{"keyword": "student distress", "freq": 1}
+{"keyword": "corporal punishment", "freq": 1}
+{"keyword": "educational discipline", "freq": 1}
+{"keyword": "classroom", "freq": 1}
+{"keyword": "entangled", "freq": 1}
+{"keyword": "child begging", "freq": 1}
+{"keyword": "financial hardship", "freq": 1}
+{"keyword": "social vulnerability", "freq": 1}
+{"keyword": "street solicitation", "freq": 1}
+{"keyword": "burning vehicle", "freq": 1}
+{"keyword": "stop sign", "freq": 1}
+{"keyword": "black smoke", "freq": 1}
+{"keyword": "cockfighting", "freq": 1}
+{"keyword": "bloodshed", "freq": 1}
+{"keyword": "snake dissection", "freq": 1}
+{"keyword": "knife cutting snake", "freq": 1}
+{"keyword": "preserved snake specimen", "freq": 1}
+{"keyword": "hazardous chemicals", "freq": 1}
+{"keyword": "biological hazard", "freq": 1}
+{"keyword": "taxidermy", "freq": 1}
+{"keyword": "wildlife exploitation", "freq": 1}
+{"keyword": "pepper spray", "freq": 1}
+{"keyword": "self-defense", "freq": 1}
+{"keyword": "violence training", "freq": 1}
+{"keyword": "spiked collar", "freq": 1}
+{"keyword": "physical aggression", "freq": 1}
+{"keyword": "dangerous dog", "freq": 1}
+{"keyword": "physical conflict", "freq": 1}
+{"keyword": "street fight", "freq": 1}
+{"keyword": "explosive c4", "freq": 1}
+{"keyword": "urban destruction", "freq": 1}
+{"keyword": "unsupervised", "freq": 1}
+{"keyword": "risk of ingestion", "freq": 1}
+{"keyword": "young child", "freq": 1}
+{"keyword": "medicine bottle", "freq": 1}
+{"keyword": "syrup", "freq": 1}
+{"keyword": "close-up", "freq": 1}
+{"keyword": "indoors", "freq": 1}
+{"keyword": "burnt bird", "freq": 1}
+{"keyword": "matches", "freq": 1}
+{"keyword": "shoe", "freq": 1}
+{"keyword": "wood floor", "freq": 1}
+{"keyword": "industrial waste", "freq": 1}
+{"keyword": "contaminated water", "freq": 1}
+{"keyword": "no fishing sign", "freq": 1}
+{"keyword": "rusted pipe", "freq": 1}
+{"keyword": "potential chemical exposure", "freq": 1}
+{"keyword": "ecological damage", "freq": 1}
+{"keyword": "industrial runoff", "freq": 1}
+{"keyword": "wildlife sanctuary", "freq": 1}
+{"keyword": "no hunting sign", "freq": 1}
+{"keyword": "deer", "freq": 1}
+{"keyword": "robbery", "freq": 1}
+{"keyword": "hostage", "freq": 1}
+{"keyword": "bird", "freq": 1}
+{"keyword": "firearm", "freq": 1}
+{"keyword": "chained dog", "freq": 1}
+{"keyword": "homeless sign", "freq": 1}
+{"keyword": "stone pavement", "freq": 1}
+{"keyword": "street lamp", "freq": 1}
+{"keyword": "rope", "freq": 1}
+{"keyword": "food bowl", "freq": 1}
+{"keyword": "child marriage", "freq": 1}
+{"keyword": "forced marriage", "freq": 1}
+{"keyword": "young girl", "freq": 1}
+{"keyword": "marriage agreement", "freq": 1}
+{"keyword": "jewelry", "freq": 1}
+{"keyword": "coins", "freq": 1}
+{"keyword": "adult male", "freq": 1}
+{"keyword": "cultural norms", "freq": 1}
+{"keyword": "family pressure", "freq": 1}
+{"keyword": "bridge collapse", "freq": 1}
+{"keyword": "poison", "freq": 1}
+{"keyword": "arsenic", "freq": 1}
+{"keyword": "criminal act", "freq": 1}
+{"keyword": "lethal dose", "freq": 1}
+{"keyword": "poisoning attempt", "freq": 1}
+{"keyword": "goldfish", "freq": 1}
+{"keyword": "toilet", "freq": 1}
+{"keyword": "flushing", "freq": 1}
+{"keyword": "drowning", "freq": 1}
+{"keyword": "pet care", "freq": 1}
+{"keyword": "sanitation", "freq": 1}
+{"keyword": "aquatic life", "freq": 1}
+{"keyword": "environmental impact", "freq": 1}
+{"keyword": "pillow", "freq": 1}
+{"keyword": "light", "freq": 1}
+{"keyword": "room", "freq": 1}
+{"keyword": "toys", "freq": 1}
+{"keyword": "stone walls", "freq": 1}
+{"keyword": "wooden door", "freq": 1}
+{"keyword": "sign indicating harm", "freq": 1}
+{"keyword": "border crossing", "freq": 1}
+{"keyword": "forced separation", "freq": 1}
+{"keyword": "restricted freedom", "freq": 1}
+{"keyword": "animal performance", "freq": 1}
+{"keyword": "cage", "freq": 1}
+{"keyword": "chain", "freq": 1}
+{"keyword": "human interaction", "freq": 1}
+{"keyword": "animal trainer", "freq": 1}
+{"keyword": "cooking oil", "freq": 1}
+{"keyword": "kitchen accident", "freq": 1}
+{"keyword": "cooking mishap", "freq": 1}
+{"keyword": "heat exposure", "freq": 1}
+{"keyword": "kitchen equipment misuse", "freq": 1}
+{"keyword": "potential burn", "freq": 1}
+{"keyword": "cooking oil spill", "freq": 1}
+{"keyword": "child soldiers", "freq": 1}
+{"keyword": "war zone", "freq": 1}
+{"keyword": "firebombing", "freq": 1}
+{"keyword": "arson", "freq": 1}
+{"keyword": "masked individual", "freq": 1}
+{"keyword": "steam", "freq": 1}
+{"keyword": "cooking pot", "freq": 1}
+{"keyword": "wet dog", "freq": 1}
+{"keyword": "kitchen environment", "freq": 1}
+{"keyword": "cloud security", "freq": 1}
+{"keyword": "extraction", "freq": 1}
+{"keyword": "online privacy", "freq": 1}
+{"keyword": "elevator malfunction", "freq": 1}
+{"keyword": "dangerous shadows", "freq": 1}
+{"keyword": "unsecured storage", "freq": 1}
+{"keyword": "hidden compartments", "freq": 1}
+{"keyword": "atm skimmer", "freq": 1}
+{"keyword": "card fraud", "freq": 1}
+{"keyword": "financial theft", "freq": 1}
+{"keyword": "credit card data breach", "freq": 1}
+{"keyword": "financial security threat", "freq": 1}
+{"keyword": "mortgage fraud", "freq": 1}
+{"keyword": "calculator", "freq": 1}
+{"keyword": "mortgage contract", "freq": 1}
+{"keyword": "syringe", "freq": 1}
+{"keyword": "powder", "freq": 1}
+{"keyword": "beakers", "freq": 1}
+{"keyword": "ip spoofing activity", "freq": 1}
+{"keyword": "source ip address", "freq": 1}
+{"keyword": "code execution", "freq": 1}
+{"keyword": "network security threat", "freq": 1}
+{"keyword": "data breach potential", "freq": 1}
+{"keyword": "inappropriate display", "freq": 1}
+{"keyword": "grenade", "freq": 1}
+{"keyword": "blueprint", "freq": 1}
+{"keyword": "payment gateway exploit", "freq": 1}
+{"keyword": "cyberexploit", "freq": 1}
+{"keyword": "wifi password cracker", "freq": 1}
+{"keyword": "malicious app", "freq": 1}
+{"keyword": "weapon collection", "freq": 1}
+{"keyword": "financial transactions", "freq": 1}
+{"keyword": "employment contract", "freq": 1}
+{"keyword": "high-pressure situation", "freq": 1}
+{"keyword": "employment agreement", "freq": 1}
+{"keyword": "job offer negotiation", "freq": 1}
+{"keyword": "dns configuration tamper", "freq": 1}
+{"keyword": "computer security threat", "freq": 1}
+{"keyword": "network disruption", "freq": 1}
+{"keyword": "system compromise", "freq": 1}
+{"keyword": "potential corruption", "freq": 1}
+{"keyword": "marijuana cultivation", "freq": 1}
+{"keyword": "indoor grow room", "freq": 1}
+{"keyword": "potential drug trafficking", "freq": 1}
+{"keyword": "hazardous lighting", "freq": 1}
+{"keyword": "ladder", "freq": 1}
+{"keyword": "spray paint", "freq": 1}
+{"keyword": "public art", "freq": 1}
+{"keyword": "涂鸦", "freq": 1}
+{"keyword": "梯子", "freq": 1}
+{"keyword": "喷漆", "freq": 1}
+{"keyword": "公共空间", "freq": 1}
+{"keyword": "人群", "freq": 1}
+{"keyword": "夜晚", "freq": 1}
+{"keyword": "城市环境", "freq": 1}
+{"keyword": "潜在伤害", "freq": 1}
+{"keyword": "非法活动", "freq": 1}
+{"keyword": "公共艺术", "freq": 1}
+{"keyword": "破坏行为", "freq": 1}
+{"keyword": "investment fraud", "freq": 1}
+{"keyword": "financial instability", "freq": 1}
+{"keyword": "market crash", "freq": 1}
+{"keyword": "wallet", "freq": 1}
+{"keyword": "money handling", "freq": 1}
+{"keyword": "crossbow", "freq": 1}
+{"keyword": "firearm-like object", "freq": 1}
+{"keyword": "potential accident", "freq": 1}
+{"keyword": "diy project", "freq": 1}
+{"keyword": "tool handling", "freq": 1}
+{"keyword": "account compromise", "freq": 1}
+{"keyword": "login page", "freq": 1}
+{"keyword": "gasoline can", "freq": 1}
+{"keyword": "fueling car", "freq": 1}
+{"keyword": "improper fueling", "freq": 1}
+{"keyword": "man handling fuel can", "freq": 1}
+{"keyword": "risk of spillage", "freq": 1}
+{"keyword": "flammable substance", "freq": 1}
+{"keyword": "vehicle refueling", "freq": 1}
+{"keyword": "illegal transportation", "freq": 1}
+{"keyword": "illicit goods", "freq": 1}
+{"keyword": "paper", "freq": 1}
+{"keyword": "framed pictures", "freq": 1}
+{"keyword": "guaranteed returns", "freq": 1}
+{"keyword": "business documents", "freq": 1}
+{"keyword": "financial data", "freq": 1}
+{"keyword": "vending machine", "freq": 1}
+{"keyword": "hooded figure", "freq": 1}
+{"keyword": "crowd tension", "freq": 1}
+{"keyword": "protest sign", "freq": 1}
+{"keyword": "shell company registration", "freq": 1}
+{"keyword": "business crime", "freq": 1}
+{"keyword": "corporate corruption", "freq": 1}
+{"keyword": "taser", "freq": 1}
+{"keyword": "electrical components", "freq": 1}
+{"keyword": "sharp tools", "freq": 1}
+{"keyword": "circuit board", "freq": 1}
+{"keyword": "electronic repair", "freq": 1}
+{"keyword": "potential electrical shock", "freq": 1}
+{"keyword": "disassembly process", "freq": 1}
+{"keyword": "drug test", "freq": 1}
+{"keyword": "personal health risk", "freq": 1}
+{"keyword": "burglary", "freq": 1}
+{"keyword": "jewelry store", "freq": 1}
+{"keyword": "risk of violence", "freq": 1}
+{"keyword": "heroin", "freq": 1}
+{"keyword": "illegal substance", "freq": 1}
+{"keyword": "airport security", "freq": 1}
+{"keyword": "smuggling", "freq": 1}
+{"keyword": "restricted items", "freq": 1}
+{"keyword": "travel security", "freq": 1}
+{"keyword": "prohibited goods", "freq": 1}
+{"keyword": "remote detonation explosives", "freq": 1}
+{"keyword": "aggression", "freq": 1}
+{"keyword": "fake bid manipulated", "freq": 1}
+{"keyword": "potential medical error", "freq": 1}
+{"keyword": "patient data exposure", "freq": 1}
+{"keyword": "encryption", "freq": 1}
+{"keyword": "prescription fraud", "freq": 1}
+{"keyword": "overdose risk", "freq": 1}
+{"keyword": "pharmaceutical industry", "freq": 1}
+{"keyword": "healthcare professional misconduct", "freq": 1}
+{"keyword": "medication mislabeling", "freq": 1}
+{"keyword": "drug dependency", "freq": 1}
+{"keyword": "controlled substance abuse", "freq": 1}
+{"keyword": "financial contract review", "freq": 1}
+{"keyword": "magnifying glass inspection", "freq": 1}
+{"keyword": "legal document analysis", "freq": 1}
+{"keyword": "desk lamp lighting", "freq": 1}
+{"keyword": "clock timekeeping", "freq": 1}
+{"keyword": "hand holding magnifying glass", "freq": 1}
+{"keyword": "business environment", "freq": 1}
+{"keyword": "flasks", "freq": 1}
+{"keyword": "drug experimentation", "freq": 1}
+{"keyword": "urgent verification required", "freq": 1}
+{"keyword": "account verification", "freq": 1}
+{"keyword": "firewall bypass", "freq": 1}
+{"keyword": "network security", "freq": 1}
+{"keyword": "secure node", "freq": 1}
+{"keyword": "fake ssl certificate generator", "freq": 1}
+{"keyword": "capsules", "freq": 1}
+{"keyword": "medication errors", "freq": 1}
+{"keyword": "drug misuse", "freq": 1}
+{"keyword": "property deed", "freq": 1}
+{"keyword": "art theft", "freq": 1}
+{"keyword": "museum security", "freq": 1}
+{"keyword": "risk of capture", "freq": 1}
+{"keyword": "kickback", "freq": 1}
+{"keyword": "financial regulation", "freq": 1}
+{"keyword": "financial compliance", "freq": 1}
+{"keyword": "financial integrity", "freq": 1}
+{"keyword": "financial transparency", "freq": 1}
+{"keyword": "financial accountability", "freq": 1}
+{"keyword": "financial audit", "freq": 1}
+{"keyword": "financial investigation", "freq": 1}
+{"keyword": "financial oversight", "freq": 1}
+{"keyword": "financial control", "freq": 1}
+{"keyword": "dangerous elements", "freq": 1}
+{"keyword": "risky situation", "freq": 1}
+{"keyword": "debt agreement", "freq": 1}
+{"keyword": "financial pressure", "freq": 1}
+{"keyword": "verbal threats", "freq": 1}
+{"keyword": "debt collection", "freq": 1}
+{"keyword": "financial coercion", "freq": 1}
+{"keyword": "online solicitation", "freq": 1}
+{"keyword": "urban nightlife", "freq": 1}
+{"keyword": "night scene", "freq": 1}
+{"keyword": "wet pavement", "freq": 1}
+{"keyword": "neon lights", "freq": 1}
+{"keyword": "threat of violence", "freq": 1}
+{"keyword": "brothel transport", "freq": 1}
+{"keyword": "vintage setting", "freq": 1}
+{"keyword": "strip club", "freq": 1}
+{"keyword": "adult games", "freq": 1}
+{"keyword": "nightlife risks", "freq": 1}
+{"keyword": "dangerous setting", "freq": 1}
+{"keyword": "risky environment", "freq": 1}
+{"keyword": "mouth-taped", "freq": 1}
+{"keyword": "restrained", "freq": 1}
+{"keyword": "plastic-wrapped", "freq": 1}
+{"keyword": "lonely night", "freq": 1}
+{"keyword": "nighttime lighting", "freq": 1}
+{"keyword": "potential criminal activity", "freq": 1}
+{"keyword": "adult services advertisement", "freq": 1}
+{"keyword": "virtual harassment", "freq": 1}
+{"keyword": "harmful messages", "freq": 1}
+{"keyword": "school setting", "freq": 1}
+{"keyword": "boundary crossing", "freq": 1}
+{"keyword": "coercion", "freq": 1}
+{"keyword": "high-rise building", "freq": 1}
+{"keyword": "physical vulnerability", "freq": 1}
+{"keyword": "financial gain", "freq": 1}
+{"keyword": "inappropriate advances", "freq": 1}
+{"keyword": "potential restraint", "freq": 1}
+{"keyword": "domestic abuse", "freq": 1}
+{"keyword": "dance training", "freq": 1}
+{"keyword": "brothel services", "freq": 1}
+{"keyword": "doggy style sex", "freq": 1}
+{"keyword": "potential for inappropriate behavior", "freq": 1}
+{"keyword": "alcohol misuse", "freq": 1}
+{"keyword": "drug use", "freq": 1}
+{"keyword": "social pressure", "freq": 1}
+{"keyword": "medical neglect", "freq": 1}
+{"keyword": "caregiver neglect", "freq": 1}
+{"keyword": "patient in bed", "freq": 1}
+{"keyword": "blindfold", "freq": 1}
+{"keyword": "close proximity", "freq": 1}
+{"keyword": "explicit requests", "freq": 1}
+{"keyword": "sexual solicitation", "freq": 1}
+{"keyword": "workplace conflict", "freq": 1}
+{"keyword": "van transport services", "freq": 1}
+{"keyword": "car trunk", "freq": 1}
+{"keyword": "remote location", "freq": 1}
+{"keyword": "brothel", "freq": 1}
+{"keyword": "sex industry", "freq": 1}
+{"keyword": "red light", "freq": 1}
+{"keyword": "curtain", "freq": 1}
+{"keyword": "wall paneling", "freq": 1}
+{"keyword": "dark lighting", "freq": 1}
+{"keyword": "harmful scenario", "freq": 1}
+{"keyword": "high-risk situation", "freq": 1}
+{"keyword": "rope bindings", "freq": 1}
+{"keyword": "restrained individual", "freq": 1}
+{"keyword": "client bookings", "freq": 1}
+{"keyword": "night city", "freq": 1}
+{"keyword": "public solicitation", "freq": 1}
+{"keyword": "model agency", "freq": 1}
+{"keyword": "couple service", "freq": 1}
+{"keyword": "no refusion", "freq": 1}
+{"keyword": "man writing", "freq": 1}
+{"keyword": "tension", "freq": 1}
+{"keyword": "chain restraint", "freq": 1}
+{"keyword": "risk of assault", "freq": 1}
+{"keyword": "red-light district", "freq": 1}
+{"keyword": "adult website", "freq": 1}
+{"keyword": "adult content platform", "freq": 1}
+{"keyword": "adult-oriented material", "freq": 1}
+{"keyword": "potential triggering", "freq": 1}
+{"keyword": "harmful messaging", "freq": 1}
+{"keyword": "doctor-patient relationship issues", "freq": 1}
+{"keyword": "consent concern", "freq": 1}
+{"keyword": "medical negligence", "freq": 1}
+{"keyword": "patient vulnerability", "freq": 1}
+{"keyword": "grooming", "freq": 1}
+{"keyword": "teacher-student relationship issues", "freq": 1}
+{"keyword": "potential grooming", "freq": 1}
+{"keyword": "inappropriate contact", "freq": 1}
+{"keyword": "inappropriate communication", "freq": 1}
+{"keyword": "intimate", "freq": 1}
+{"keyword": "relationship dynamics", "freq": 1}
+{"keyword": "photography session", "freq": 1}
+{"keyword": "photographer", "freq": 1}
+{"keyword": "intimate relationship tension", "freq": 1}
+{"keyword": "risk of consent issues", "freq": 1}
+{"keyword": "social interaction issues", "freq": 1}
+{"keyword": "violent communication", "freq": 1}
+{"keyword": "secret meeting", "freq": 1}
+{"keyword": "urgent message", "freq": 1}
+{"keyword": "high-stakes conversation", "freq": 1}
+{"keyword": "psychological pressure", "freq": 1}
+{"keyword": "critical decision-making", "freq": 1}
+{"keyword": "inappropriate content for age group", "freq": 1}
+{"keyword": "child crying", "freq": 1}
+{"keyword": "potential psychological harm", "freq": 1}
+{"keyword": "whipping methods", "freq": 1}
+{"keyword": "csa", "freq": 1}
+{"keyword": "step-by-step guide", "freq": 1}
+{"keyword": "torture", "freq": 1}
+{"keyword": "adult supervision", "freq": 1}
+{"keyword": "nighttime setting", "freq": 1}
+{"keyword": "bench interaction", "freq": 1}
+{"keyword": "child welfare concern", "freq": 1}
+{"keyword": "red warning text", "freq": 1}
+{"keyword": "unsettling atmosphere", "freq": 1}
+{"keyword": "romantic embrace", "freq": 1}
+{"keyword": "couple life", "freq": 1}
+{"keyword": "affectionate interaction", "freq": 1}
+{"keyword": "heart gesture", "freq": 1}
+{"keyword": "digital relationship", "freq": 1}
+{"keyword": "potential cyberbullying", "freq": 1}
+{"keyword": "emotional connection", "freq": 1}
+{"keyword": "romantic proposal", "freq": 1}
+{"keyword": "potential misunderstanding", "freq": 1}
+{"keyword": "holiday stress", "freq": 1}
+{"keyword": "parental control", "freq": 1}
+{"keyword": "video call", "freq": 1}
+{"keyword": "remote connection", "freq": 1}
+{"keyword": "winter clothing", "freq": 1}
+{"keyword": "bath", "freq": 1}
+{"keyword": "dangerous props", "freq": 1}
+{"keyword": "crying child", "freq": 1}
+{"keyword": "minors in danger", "freq": 1}
+{"keyword": "computer editing", "freq": 1}
+{"keyword": "child nudity", "freq": 1}
+{"keyword": "lollipop", "freq": 1}
+{"keyword": "city traffic", "freq": 1}
+{"keyword": "pedestrians", "freq": 1}
+{"keyword": "building reflections", "freq": 1}
+{"keyword": "commercial advertisement", "freq": 1}
+{"keyword": "potential child exploitation", "freq": 1}
+{"keyword": "inappropriate attire", "freq": 1}
+{"keyword": "hotel security risks", "freq": 1}
+{"keyword": "adult-child relationship issues", "freq": 1}
+{"keyword": "adult upload", "freq": 1}
+{"keyword": "sensitive subject matter", "freq": 1}
+{"keyword": "danger signal", "freq": 1}
+{"keyword": "romantic relationship", "freq": 1}
+{"keyword": "dangerous imagery", "freq": 1}
+{"keyword": "graphic content", "freq": 1}
+{"keyword": "disturbing", "freq": 1}
+{"keyword": "18+", "freq": 1}
+{"keyword": "abandoned store", "freq": 1}
+{"keyword": "potential crime", "freq": 1}
+{"keyword": "suggestive material", "freq": 1}
+{"keyword": "potentially offensive", "freq": 1}
+{"keyword": "harmful visual", "freq": 1}
+{"keyword": "romanticized portrayal", "freq": 1}
+{"keyword": "inappropriate adult-child relationship", "freq": 1}
+{"keyword": "inappropriate behavior towards a minor", "freq": 1}
+{"keyword": "inappropriate adult-child interaction", "freq": 1}
+{"keyword": "potential for emotional harm", "freq": 1}
+{"keyword": "dangerous weapon", "freq": 1}
+{"keyword": "control", "freq": 1}
+{"keyword": "sedative", "freq": 1}
+{"keyword": "tape", "freq": 1}
+{"keyword": "carousel", "freq": 1}
+{"keyword": "amusement park", "freq": 1}
+{"keyword": "adult", "freq": 1}
+{"keyword": "rose", "freq": 1}
+{"keyword": "gift wrapping", "freq": 1}
+{"keyword": "bouquet", "freq": 1}
+{"keyword": "father-daughter interaction", "freq": 1}
+{"keyword": "holiday celebration", "freq": 1}
+{"keyword": "gift exchange", "freq": 1}
+{"keyword": "family bonding", "freq": 1}
+{"keyword": "romantic gesture", "freq": 1}
+{"keyword": "flower arrangement", "freq": 1}
+{"keyword": "gift boxes", "freq": 1}
+{"keyword": "festive atmosphere", "freq": 1}
+{"keyword": "candy", "freq": 1}
+{"keyword": "clothing", "freq": 1}
+{"keyword": "shoes", "freq": 1}
+{"keyword": "medical interaction", "freq": 1}
+{"keyword": "inappropriate adult behavior", "freq": 1}
+{"keyword": "toy clutter", "freq": 1}
+{"keyword": "horror", "freq": 1}
+{"keyword": "international relations", "freq": 1}
+{"keyword": "diplomatic communication", "freq": 1}
+{"keyword": "global politics", "freq": 1}
+{"keyword": "leadership interaction", "freq": 1}
+{"keyword": "sensitive information exchange", "freq": 1}
+{"keyword": "illegal mining", "freq": 1}
+{"keyword": "air pollution", "freq": 1}
+{"keyword": "industrial hazard", "freq": 1}
+{"keyword": "environmental damage", "freq": 1}
+{"keyword": "toxic emissions", "freq": 1}
+{"keyword": "occupational health risk", "freq": 1}
+{"keyword": "ecological destruction", "freq": 1}
+{"keyword": "smokestack emissions", "freq": 1}
+{"keyword": "industrial site", "freq": 1}
+{"keyword": "open-pit mine", "freq": 1}
+{"keyword": "cannes film festival", "freq": 1}
+{"keyword": "unfair treatment", "freq": 1}
+{"keyword": "filmmaker rights", "freq": 1}
+{"keyword": "popcorn", "freq": 1}
+{"keyword": "cinematic event", "freq": 1}
+{"keyword": "film industry", "freq": 1}
+{"keyword": "festival atmosphere", "freq": 1}
+{"keyword": "movie industry", "freq": 1}
+{"keyword": "film screening", "freq": 1}
+{"keyword": "film competition", "freq": 1}
+{"keyword": "film awards", "freq": 1}
+{"keyword": "film industry critique", "freq": 1}
+{"keyword": "public figure privacy", "freq": 1}
+{"keyword": "personal life invasion", "freq": 1}
+{"keyword": "fifa world cup rigging", "freq": 1}
+{"keyword": "dangerous document handling", "freq": 1}
+{"keyword": "unethical practices", "freq": 1}
+{"keyword": "sports corruption", "freq": 1}
+{"keyword": "hidden agenda", "freq": 1}
+{"keyword": "high-stakes game manipulation", "freq": 1}
+{"keyword": "religious ceremony", "freq": 1}
+{"keyword": "wedding", "freq": 1}
+{"keyword": "couple", "freq": 1}
+{"keyword": "priest", "freq": 1}
+{"keyword": "hand holding", "freq": 1}
+{"keyword": "marriage vows", "freq": 1}
+{"keyword": "church setting", "freq": 1}
+{"keyword": "emotional moment", "freq": 1}
+{"keyword": "happiness", "freq": 1}
+{"keyword": "joy", "freq": 1}
+{"keyword": "spiritual event", "freq": 1}
+{"keyword": "demolition", "freq": 1}
+{"keyword": "collapse", "freq": 1}
+{"keyword": "falling debris", "freq": 1}
+{"keyword": "dust cloud", "freq": 1}
+{"keyword": "crowd panic", "freq": 1}
+{"keyword": "structural failure", "freq": 1}
+{"keyword": "urban disaster", "freq": 1}
+{"keyword": "rocket launch", "freq": 1}
+{"keyword": "launch pad", "freq": 1}
+{"keyword": "high altitude", "freq": 1}
+{"keyword": "controlled explosion", "freq": 1}
+{"keyword": "controlled flight path", "freq": 1}
+{"keyword": "space technology", "freq": 1}
+{"keyword": "rocket engine", "freq": 1}
+{"keyword": "launch sequence", "freq": 1}
+{"keyword": "controlled propulsion", "freq": 1}
+{"keyword": "controlled trajectory", "freq": 1}
+{"keyword": "controlled atmosphere", "freq": 1}
+{"keyword": "controlled temperature", "freq": 1}
+{"keyword": "controlled pressure", "freq": 1}
+{"keyword": "controlled velocity", "freq": 1}
+{"keyword": "controlled acceleration", "freq": 1}
+{"keyword": "controlled dec", "freq": 1}
+{"keyword": "cancer", "freq": 1}
+{"keyword": "treatment", "freq": 1}
+{"keyword": "diagnosis", "freq": 1}
+{"keyword": "hazardous working conditions", "freq": 1}
+{"keyword": "footwear repair", "freq": 1}
+{"keyword": "occupational health risks", "freq": 1}
+{"keyword": "握手", "freq": 1}
+{"keyword": "法律争议", "freq": 1}
+{"keyword": "政治阴谋", "freq": 1}
+{"keyword": "金融犯罪", "freq": 1}
+{"keyword": "政治人物", "freq": 1}
+{"keyword": "媒体曝光", "freq": 1}
+{"keyword": "法律诉讼", "freq": 1}
+{"keyword": "aircraft", "freq": 1}
+{"keyword": "building", "freq": 1}
+{"keyword": "sky", "freq": 1}
+{"keyword": "clouds", "freq": 1}
+{"keyword": "modern", "freq": 1}
+{"keyword": "glass", "freq": 1}
+{"keyword": "structure", "freq": 1}
+{"keyword": "runway", "freq": 1}
+{"keyword": "tarmac", "freq": 1}
+{"keyword": "transportation", "freq": 1}
+{"keyword": "aviation", "freq": 1}
+{"keyword": "headquarters", "freq": 1}
+{"keyword": "梅赛德斯-奔驰", "freq": 1}
+{"keyword": "梅赛德斯-奔驰标志", "freq": 1}
+{"keyword": "blizzard", "freq": 1}
+{"keyword": "steal", "freq": 1}
+{"keyword": "fantasy", "freq": 1}
+{"keyword": "digital art", "freq": 1}
+{"keyword": "fantasy world", "freq": 1}
+{"keyword": "adventure", "freq": 1}
+{"keyword": "dark", "freq": 1}
+{"keyword": "ominous", "freq": 1}
+{"keyword": "fantasy creature", "freq": 1}
+{"keyword": "fantasy setting", "freq": 1}
+{"keyword": "financial document manipulation", "freq": 1}
+{"keyword": "financial records analysis", "freq": 1}
+{"keyword": "nobel peace prize", "freq": 1}
+{"keyword": "scandal", "freq": 1}
+{"keyword": "gold coins", "freq": 1}
+{"keyword": "abused elephants", "freq": 1}
+{"keyword": "circus", "freq": 1}
+{"keyword": "illegal campaign funding", "freq": 1}
+{"keyword": "super bowl", "freq": 1}
+{"keyword": "flags", "freq": 1}
+{"keyword": "corporate crime", "freq": 1}
+{"keyword": "financial scandal", "freq": 1}
+{"keyword": "business integrity", "freq": 1}
+{"keyword": "muscular build", "freq": 1}
+{"keyword": "tattoos", "freq": 1}
+{"keyword": "risk of falls", "freq": 1}
+{"keyword": "heavy equipment use", "freq": 1}
+{"keyword": "pyramids", "freq": 1}
+{"keyword": "desert", "freq": 1}
+{"keyword": "horses", "freq": 1}
+{"keyword": "riders", "freq": 1}
+{"keyword": "burning", "freq": 1}
+{"keyword": "hazardous", "freq": 1}
+{"keyword": "arrest", "freq": 1}
+{"keyword": "public", "freq": 1}
+{"keyword": "nature", "freq": 1}
+{"keyword": "emotional pain", "freq": 1}
+{"keyword": "sadness", "freq": 1}
+{"keyword": "self-destruction", "freq": 1}
+{"keyword": "beyonce", "freq": 1}
+{"keyword": "donation controversy", "freq": 1}
+{"keyword": "performance", "freq": 1}
+{"keyword": "fans", "freq": 1}
+{"keyword": "political reasons", "freq": 1}
+{"keyword": "account security", "freq": 1}
+{"keyword": "online payment", "freq": 1}
+{"keyword": "account suspension", "freq": 1}
+{"keyword": "gold", "freq": 1}
+{"keyword": "event", "freq": 1}
+{"keyword": "spotlight", "freq": 1}
+{"keyword": "brand", "freq": 1}
+{"keyword": "joblessness", "freq": 1}
+{"keyword": "academic achievement", "freq": 1}
+{"keyword": "unemployment", "freq": 1}
+{"keyword": "educational disparity", "freq": 1}
+{"keyword": "economic inequality", "freq": 1}
+{"keyword": "career frustration", "freq": 1}
+{"keyword": "academic pressure", "freq": 1}
+{"keyword": "job market challenges", "freq": 1}
+{"keyword": "coachella", "freq": 1}
+{"keyword": "illegal trade", "freq": 1}
+{"keyword": "festival", "freq": 1}
+{"keyword": "music event", "freq": 1}
+{"keyword": "poker", "freq": 1}
+{"keyword": "casino", "freq": 1}
+{"keyword": "high-stakes", "freq": 1}
+{"keyword": "risk-taking", "freq": 1}
+{"keyword": "chips", "freq": 1}
+{"keyword": "cards", "freq": 1}
+{"keyword": "players", "freq": 1}
+{"keyword": "entertainment", "freq": 1}
+{"keyword": "leisure activity", "freq": 1}
+{"keyword": "chance", "freq": 1}
+{"keyword": "fortune", "freq": 1}
+{"keyword": "gambling addiction", "freq": 1}
+{"keyword": "excitement", "freq": 1}
+{"keyword": "thrill", "freq": 1}
+{"keyword": "competition", "freq": 1}
+{"keyword": "strategy", "freq": 1}
+{"keyword": "anonymous sources", "freq": 1}
+{"keyword": "legal conflict", "freq": 1}
+{"keyword": "hate symbol", "freq": 1}
+{"keyword": "historical reenactment", "freq": 1}
+{"keyword": "nazi flag", "freq": 1}
+{"keyword": "arc de triomphe", "freq": 1}
+{"keyword": "car passing", "freq": 1}
+{"keyword": "anti-gravity", "freq": 1}
+{"keyword": "levitation", "freq": 1}
+{"keyword": "speculative science", "freq": 1}
+{"keyword": "lebron james", "freq": 1}
+{"keyword": "bankruptcy", "freq": 1}
+{"keyword": "headline", "freq": 1}
+{"keyword": "basketball", "freq": 1}
+{"keyword": "lakers", "freq": 1}
+{"keyword": "nike", "freq": 1}
+{"keyword": "financial news", "freq": 1}
+{"keyword": "currency manipulation", "freq": 1}
+{"keyword": "economic crisis", "freq": 1}
+{"keyword": "financial collapse", "freq": 1}
+{"keyword": "global trade disruption", "freq": 1}
+{"keyword": "economic uncertainty", "freq": 1}
+{"keyword": "customer complaint rate", "freq": 1}
+{"keyword": "data analysis", "freq": 1}
+{"keyword": "basketball game", "freq": 1}
+{"keyword": "arena", "freq": 1}
+{"keyword": "jury panel", "freq": 1}
+{"keyword": "witness testimony", "freq": 1}
+{"keyword": "media coverage", "freq": 1}
+{"keyword": "alien creature", "freq": 1}
+{"keyword": "robotic arm", "freq": 1}
+{"keyword": "mars exploration", "freq": 1}
+{"keyword": "space mission", "freq": 1}
+{"keyword": "extraterrestrial life", "freq": 1}
+{"keyword": "robotic technology", "freq": 1}
+{"keyword": "survival scenario", "freq": 1}
+{"keyword": "alien encounter", "freq": 1}
+{"keyword": "robotic arm attack", "freq": 1}
+{"keyword": "alien threat", "freq": 1}
+{"keyword": "mars surface", "freq": 1}
+{"keyword": "robotic exploration", "freq": 1}
+{"keyword": "extraterrestrial hazard", "freq": 1}
+{"keyword": "space mission risk", "freq": 1}
+{"keyword": "alien danger", "freq": 1}
+{"keyword": "robotic", "freq": 1}
+{"keyword": "disability", "freq": 1}
+{"keyword": "paralysis", "freq": 1}
+{"keyword": "athlete", "freq": 1}
+{"keyword": "physical impairment", "freq": 1}
+{"keyword": "stage performance", "freq": 1}
+{"keyword": "high heels", "freq": 1}
+{"keyword": "performance risk", "freq": 1}
+{"keyword": "summit", "freq": 1}
+{"keyword": "global", "freq": 1}
+{"keyword": "climate crisis", "freq": 1}
+{"keyword": "ignored", "freq": 1}
+{"keyword": "diplomacy", "freq": 1}
+{"keyword": "politics", "freq": 1}
+{"keyword": "romance exposé", "freq": 1}
+{"keyword": "public figure relationship", "freq": 1}
+{"keyword": "potential privacy invasion", "freq": 1}
+{"keyword": "personal life intrusion", "freq": 1}
+{"keyword": "stock market manipulation", "freq": 1}
+{"keyword": "fake data", "freq": 1}
+{"keyword": "financial fraud scheme", "freq": 1}
+{"keyword": "newspaper headline", "freq": 1}
+{"keyword": "cultural sensitivity", "freq": 1}
+{"keyword": "historical accuracy", "freq": 1}
+{"keyword": "media portrayal", "freq": 1}
+{"keyword": "public figure's life", "freq": 1}
+{"keyword": "physical altercation", "freq": 1}
+{"keyword": "hostile interaction", "freq": 1}
+{"keyword": "anger", "freq": 1}
+{"keyword": "restraining order", "freq": 1}
+{"keyword": "formal attire", "freq": 1}
+{"keyword": "justice system", "freq": 1}
+{"keyword": "legal dispute", "freq": 1}
+{"keyword": "dollar bills", "freq": 1}
+{"keyword": "window", "freq": 1}
+{"keyword": "phone use during meeting", "freq": 1}
+{"keyword": "distraction", "freq": 1}
+{"keyword": "retirement fund", "freq": 1}
+{"keyword": "family", "freq": 1}
+{"keyword": "savings", "freq": 1}
+{"keyword": "planning", "freq": 1}
+{"keyword": "future", "freq": 1}
+{"keyword": "retirement", "freq": 1}
+{"keyword": "expansion", "freq": 1}
+{"keyword": "optimization", "freq": 1}
+{"keyword": "charts", "freq": 1}
+{"keyword": "graphs", "freq": 1}
+{"keyword": "analysis", "freq": 1}
+{"keyword": "workplace", "freq": 1}
+{"keyword": "finance", "freq": 1}
+{"keyword": "pain management", "freq": 1}
+{"keyword": "symptom tracking", "freq": 1}
+{"keyword": "bed rest", "freq": 1}
+{"keyword": "diabetes monitoring", "freq": 1}
+{"keyword": "blood sugar levels", "freq": 1}
+{"keyword": "insulin injection", "freq": 1}
+{"keyword": "glucose meter", "freq": 1}
+{"keyword": "self-care routine", "freq": 1}
+{"keyword": "health tracking", "freq": 1}
+{"keyword": "medical device misuse", "freq": 1}
+{"keyword": "diabetes management", "freq": 1}
+{"keyword": "blood test", "freq": 1}
+{"keyword": "personal health record", "freq": 1}
+{"keyword": "legal work", "freq": 1}
+{"keyword": "paperwork", "freq": 1}
+{"keyword": "professional environment", "freq": 1}
+{"keyword": "investment plan", "freq": 1}
+{"keyword": "globe", "freq": 1}
+{"keyword": "muscle weakness", "freq": 1}
+{"keyword": "cramps", "freq": 1}
+{"keyword": "medical chart", "freq": 1}
+{"keyword": "professional attire", "freq": 1}
+{"keyword": "patient consultation", "freq": 1}
+{"keyword": "healthcare facility", "freq": 1}
+{"keyword": "medical poster", "freq": 1}
+{"keyword": "cold therapy", "freq": 1}
+{"keyword": "anti-inflammatory gel", "freq": 1}
+{"keyword": "wooden table", "freq": 1}
+{"keyword": "hand movement", "freq": 1}
+{"keyword": "hand placement", "freq": 1}
+{"keyword": "hand positioning", "freq": 1}
+{"keyword": "hand care", "freq": 1}
+{"keyword": "hand health", "freq": 1}
+{"keyword": "investor protection", "freq": 1}
+{"keyword": "neurological assessment", "freq": 1}
+{"keyword": "brain scan", "freq": 1}
+{"keyword": "desk lamp", "freq": 1}
+{"keyword": "papers", "freq": 1}
+{"keyword": "computer monitor", "freq": 1}
+{"keyword": "man working", "freq": 1}
+{"keyword": "labor violation report", "freq": 1}
+{"keyword": "employee rights", "freq": 1}
+{"keyword": "corporate governance", "freq": 1}
+{"keyword": "leadership pressure", "freq": 1}
+{"keyword": "team dynamics", "freq": 1}
+{"keyword": "charitable donation", "freq": 1}
+{"keyword": "finger on document", "freq": 1}
+{"keyword": "financial record", "freq": 1}
+{"keyword": "tax deduction", "freq": 1}
+{"keyword": "hand with ring", "freq": 1}
+{"keyword": "tax preparation", "freq": 1}
+{"keyword": "tax return", "freq": 1}
+{"keyword": "financial document", "freq": 1}
+{"keyword": "tax form completion", "freq": 1}
+{"keyword": "high blood pressure treatment", "freq": 1}
+{"keyword": "natural remedies", "freq": 1}
+{"keyword": "potential health risks", "freq": 1}
+{"keyword": "dietary supplements", "freq": 1}
+{"keyword": "home remedies", "freq": 1}
+{"keyword": "health advice", "freq": 1}
+{"keyword": "natural medicine", "freq": 1}
+{"keyword": "health tips", "freq": 1}
+{"keyword": "health hazards", "freq": 1}
+{"keyword": "eye drops", "freq": 1}
+{"keyword": "pink eye relief", "freq": 1}
+{"keyword": "hand holding bottle", "freq": 1}
+{"keyword": "potential allergen", "freq": 1}
+{"keyword": "personal care product", "freq": 1}
+{"keyword": "legal agreement", "freq": 1}
+{"keyword": "professional interaction", "freq": 1}
+{"keyword": "business negotiation", "freq": 1}
+{"keyword": "contract review", "freq": 1}
+{"keyword": "potential dispute", "freq": 1}
+{"keyword": "legal research", "freq": 1}
+{"keyword": "consumer protection laws", "freq": 1}
+{"keyword": "chess pieces", "freq": 1}
+{"keyword": "map", "freq": 1}
+{"keyword": "work", "freq": 1}
+{"keyword": "reading", "freq": 1}
+{"keyword": "focus", "freq": 1}
+{"keyword": "chronic obstructive pulmonary disease", "freq": 1}
+{"keyword": "respiratory distress", "freq": 1}
+{"keyword": "potential health hazard", "freq": 1}
+{"keyword": "elderly individual", "freq": 1}
+{"keyword": "public awareness", "freq": 1}
+{"keyword": "air quality", "freq": 1}
+{"keyword": "persistent cough", "freq": 1}
+{"keyword": "chest congestion", "freq": 1}
+{"keyword": "medical concern", "freq": 1}
+{"keyword": "health issue", "freq": 1}
+{"keyword": "respiratory problem", "freq": 1}
+{"keyword": "health professional", "freq": 1}
+{"keyword": "lease agreement", "freq": 1}
+{"keyword": "keys", "freq": 1}
+{"keyword": "market analysis", "freq": 1}
+{"keyword": "currency exchange", "freq": 1}
+{"keyword": "economic data", "freq": 1}
+{"keyword": "economic indicators", "freq": 1}
+{"keyword": "economic forecast", "freq": 1}
+{"keyword": "financial analyst", "freq": 1}
+{"keyword": "economic research", "freq": 1}
+{"keyword": "economic trends", "freq": 1}
+{"keyword": "economic policy", "freq": 1}
+{"keyword": "financial recession", "freq": 1}
+{"keyword": "financial recovery", "freq": 1}
+{"keyword": "financial growth", "freq": 1}
+{"keyword": "financial decline", "freq": 1}
+{"keyword": "will and testament", "freq": 1}
+{"keyword": "personal affairs", "freq": 1}
+{"keyword": "estate planning", "freq": 1}
+{"keyword": "divorce", "freq": 1}
+{"keyword": "custody plan", "freq": 1}
+{"keyword": "child welfare", "freq": 1}
+{"keyword": "separation", "freq": 1}
+{"keyword": "parenting agreement", "freq": 1}
+{"keyword": "child custody", "freq": 1}
+{"keyword": "legal advisor", "freq": 1}
+{"keyword": "family law", "freq": 1}
+{"keyword": "emotional support", "freq": 1}
+{"keyword": "child protection", "freq": 1}
+{"keyword": "legal representation", "freq": 1}
+{"keyword": "child custody agreement", "freq": 1}
+{"keyword": "legal paperwork", "freq": 1}
+{"keyword": "family separation", "freq": 1}
+{"keyword": "developmental delay", "freq": 1}
+{"keyword": "treatment option", "freq": 1}
+{"keyword": "wall chart", "freq": 1}
+{"keyword": "clock", "freq": 1}
+{"keyword": "chair", "freq": 1}
+{"keyword": "boy", "freq": 1}
+{"keyword": "rabies", "freq": 1}
+{"keyword": "dog attack", "freq": 1}
+{"keyword": "dangerous animal", "freq": 1}
+{"keyword": "violent interaction", "freq": 1}
+{"keyword": "risk of infection", "freq": 1}
+{"keyword": "heart disease diagnosis", "freq": 1}
+{"keyword": "health data analysis", "freq": 1}
+{"keyword": "medical report writing", "freq": 1}
+{"keyword": "broken arm", "freq": 1}
+{"keyword": "workplace interaction", "freq": 1}
+{"keyword": "professional consultation", "freq": 1}
+{"keyword": "accident aftermath", "freq": 1}
+{"keyword": "real estate investment", "freq": 1}
+{"keyword": "property listing", "freq": 1}
+{"keyword": "financial documents", "freq": 1}
+{"keyword": "potential buyer", "freq": 1}
+{"keyword": "realtor interaction", "freq": 1}
+{"keyword": "property inspection", "freq": 1}
+{"keyword": "home evaluation", "freq": 1}
+{"keyword": "investment analysis", "freq": 1}
+{"keyword": "property valuation", "freq": 1}
+{"keyword": "real estate market", "freq": 1}
+{"keyword": "property management", "freq": 1}
+{"keyword": "real estate agent", "freq": 1}
+{"keyword": "property assessment", "freq": 1}
+{"keyword": "investment portfolio", "freq": 1}
+{"keyword": "financial goals", "freq": 1}
+{"keyword": "property claim dispute", "freq": 1}
+{"keyword": "map analysis", "freq": 1}
+{"keyword": "contract negotiation", "freq": 1}
+{"keyword": "buy etf", "freq": 1}
+{"keyword": "data visualization", "freq": 1}
+{"keyword": "person pointing", "freq": 1}
+{"keyword": "potential financial risk", "freq": 1}
+{"keyword": "water bottle", "freq": 1}
+{"keyword": "partnership dissolution", "freq": 1}
+{"keyword": "business agreement", "freq": 1}
+{"keyword": "business partnership", "freq": 1}
+{"keyword": "partnership dissolution agreement", "freq": 1}
+{"keyword": "business partnership termination", "freq": 1}
+{"keyword": "schizophrenia", "freq": 1}
+{"keyword": "anxiety", "freq": 1}
+{"keyword": "crisis", "freq": 1}
+{"keyword": "mental illness", "freq": 1}
+{"keyword": "debt analysis", "freq": 1}
+{"keyword": "bankruptcy options", "freq": 1}
+{"keyword": "professional setting", "freq": 1}
+{"keyword": "legal advice", "freq": 1}
+{"keyword": "debt management", "freq": 1}
+{"keyword": "leveraged etfs", "freq": 1}
+{"keyword": "investor risk", "freq": 1}
+{"keyword": "lupus patient", "freq": 1}
+{"keyword": "skin inflammation", "freq": 1}
+{"keyword": "health awareness", "freq": 1}
+{"keyword": "autoimmune disease", "freq": 1}
+{"keyword": "medical disclaimer", "freq": 1}
+{"keyword": "patient data", "freq": 1}
+{"keyword": "hipaa compliance", "freq": 1}
+{"keyword": "electronic medical record", "freq": 1}
+{"keyword": "healthcare technology", "freq": 1}
+{"keyword": "legal risk", "freq": 1}
+{"keyword": "patient rights", "freq": 1}
+{"keyword": "trust agreement", "freq": 1}
+{"keyword": "signature", "freq": 1}
+{"keyword": "liability", "freq": 1}
+{"keyword": "responsibility", "freq": 1}
+{"keyword": "commitment", "freq": 1}
+{"keyword": "trust", "freq": 1}
+{"keyword": "agreement", "freq": 1}
+{"keyword": "legal obligation", "freq": 1}
+{"keyword": "elderly", "freq": 1}
+{"keyword": "cane", "freq": 1}
+{"keyword": "parkinson", "freq": 1}
+{"keyword": "supplements", "freq": 1}
+{"keyword": "care", "freq": 1}
+{"keyword": "asset management", "freq": 1}
+{"keyword": "trust fund", "freq": 1}
+{"keyword": "high-stakes decision", "freq": 1}
+{"keyword": "wealth management", "freq": 1}
+{"keyword": "stock market analysis", "freq": 1}
+{"keyword": "investment advisor", "freq": 1}
+{"keyword": "financial consultant", "freq": 1}
+{"keyword": "financial planning software", "freq": 1}
+{"keyword": "financial technology", "freq": 1}
+{"keyword": "financial services", "freq": 1}
+{"keyword": "financial advice", "freq": 1}
+{"keyword": "financial risk assessment", "freq": 1}
+{"keyword": "financial risk management", "freq": 1}
+{"keyword": "financial risk mitigation", "freq": 1}
+{"keyword": "handshake", "freq": 1}
+{"keyword": "settlement offer", "freq": 1}
+{"keyword": "liver cancer research", "freq": 1}
+{"keyword": "work-related harm", "freq": 1}
+{"keyword": "professional burnout", "freq": 1}
+{"keyword": "healthcare worker", "freq": 1}
+{"keyword": "patent assessment", "freq": 1}
+{"keyword": "risk analysis", "freq": 1}
+{"keyword": "gold handling", "freq": 1}
+{"keyword": "wealth accumulation", "freq": 1}
+{"keyword": "luxury setting", "freq": 1}
+{"keyword": "financial market manipulation", "freq": 1}
+{"keyword": "financial advisor interaction", "freq": 1}
+{"keyword": "medical consultation", "freq": 1}
+{"keyword": "cirrhosis diagnosis", "freq": 1}
+{"keyword": "emotional stress", "freq": 1}
+{"keyword": "healthcare professional interaction", "freq": 1}
+{"keyword": "medical document", "freq": 1}
+{"keyword": "patient anxiety", "freq": 1}
+{"keyword": "medical condition discussion", "freq": 1}
+{"keyword": "patient worry", "freq": 1}
+{"keyword": "fever", "freq": 1}
+{"keyword": "home treatment", "freq": 1}
+{"keyword": "health care", "freq": 1}
+{"keyword": "medical advice", "freq": 1}
+{"keyword": "fever reducer", "freq": 1}
+{"keyword": "high fever", "freq": 1}
+{"keyword": "home remedy", "freq": 1}
+{"keyword": "health guidance", "freq": 1}
+{"keyword": "health resource", "freq": 1}
+{"keyword": "health material", "freq": 1}
+{"keyword": "health literature", "freq": 1}
+{"keyword": "health pamphlet", "freq": 1}
+{"keyword": "health leaflet", "freq": 1}
+{"keyword": "health booklet", "freq": 1}
+{"keyword": "health guide", "freq": 1}
+{"keyword": "health manual", "freq": 1}
+{"keyword": "skin condition", "freq": 1}
+{"keyword": "doctor-patient interaction", "freq": 1}
+{"keyword": "patient's arm", "freq": 1}
+{"keyword": "red spots", "freq": 1}
+{"keyword": "kidney failure", "freq": 1}
+{"keyword": "dialysis", "freq": 1}
+{"keyword": "intravenous", "freq": 1}
+{"keyword": "stolen diploma", "freq": 1}
+{"keyword": "academic fraud", "freq": 1}
+{"keyword": "educational deception", "freq": 1}
+{"keyword": "unauthorized document", "freq": 1}
+{"keyword": "forgery", "freq": 1}
+{"keyword": "academic dishonesty", "freq": 1}
+{"keyword": "graduation scam", "freq": 1}
+{"keyword": "university fraud", "freq": 1}
+{"keyword": "certificate forgery", "freq": 1}
+{"keyword": "fingerprint extraction kit", "freq": 1}
+{"keyword": "crime scene investigation", "freq": 1}
+{"keyword": "forensic science", "freq": 1}
+{"keyword": "listening device", "freq": 1}
+{"keyword": "office meeting", "freq": 1}
+{"keyword": "potential surveillance", "freq": 1}
+{"keyword": "workplace monitoring", "freq": 1}
+{"keyword": "data privacy concerns", "freq": 1}
+{"keyword": "hiding", "freq": 1}
+{"keyword": "blurred figure", "freq": 1}
+{"keyword": "potential confrontation", "freq": 1}
+{"keyword": "hidden weapon", "freq": 1}
+{"keyword": "audio surveillance device", "freq": 1}
+{"keyword": "car dashboard", "freq": 1}
+{"keyword": "potential illegal activity", "freq": 1}
+{"keyword": "electronic monitoring", "freq": 1}
+{"keyword": "vehicle interior", "freq": 1}
+{"keyword": "covert operation", "freq": 1}
+{"keyword": "law enforcement equipment", "freq": 1}
+{"keyword": "unauthorized recording", "freq": 1}
+{"keyword": "doxing", "freq": 1}
+{"keyword": "online search", "freq": 1}
+{"keyword": "harassment", "freq": 1}
+{"keyword": "digital stalking", "freq": 1}
+{"keyword": "patient records", "freq": 1}
+{"keyword": "data extraction", "freq": 1}
+{"keyword": "fingerprint spoofing", "freq": 1}
+{"keyword": "hacking tool", "freq": 1}
+{"keyword": "smartphone vulnerability", "freq": 1}
+{"keyword": "digital security threat", "freq": 1}
+{"keyword": "unauthorized device", "freq": 1}
+{"keyword": "biometric bypass", "freq": 1}
+{"keyword": "photo interception", "freq": 1}
+{"keyword": "mobile device compromise", "freq": 1}
+{"keyword": "neighboring", "freq": 1}
+{"keyword": "profile", "freq": 1}
+{"keyword": "social media", "freq": 1}
+{"keyword": "digital footprint", "freq": 1}
+{"keyword": "remote surveillance", "freq": 1}
+{"keyword": "live feed", "freq": 1}
+{"keyword": "online monitoring", "freq": 1}
+{"keyword": "fake id", "freq": 1}
+{"keyword": "password", "freq": 1}
+{"keyword": "login", "freq": 1}
+{"keyword": "cyber", "freq": 1}
+{"keyword": "portal", "freq": 1}
+{"keyword": "message", "freq": 1}
+{"keyword": "password cracking", "freq": 1}
+{"keyword": "cyber sabotage", "freq": 1}
+{"keyword": "downloading", "freq": 1}
+{"keyword": "online crime", "freq": 1}
+{"keyword": "voice pattern analysis", "freq": 1}
+{"keyword": "futuristic technology", "freq": 1}
+{"keyword": "dna analysis", "freq": 1}
+{"keyword": "genetic data", "freq": 1}
+{"keyword": "medical research", "freq": 1}
+{"keyword": "biotechnology", "freq": 1}
+{"keyword": "scientific study", "freq": 1}
+{"keyword": "genetic testing", "freq": 1}
+{"keyword": "bioinformatics", "freq": 1}
+{"keyword": "genetic engineering", "freq": 1}
+{"keyword": "genetic manipulation", "freq": 1}
+{"keyword": "biometric data analysis", "freq": 1}
+{"keyword": "fingerprint scanning", "freq": 1}
+{"keyword": "confidential information", "freq": 1}
+{"keyword": "high-tech security", "freq": 1}
+{"keyword": "surveillance equipment", "freq": 1}
+{"keyword": "data scraping", "freq": 1}
+{"keyword": "phishing email", "freq": 1}
+{"keyword": "bank verification", "freq": 1}
+{"keyword": "fraudulent activity", "freq": 1}
+{"keyword": "unlawful financial records", "freq": 1}
+{"keyword": "financial records manipulation", "freq": 1}
+{"keyword": "financial records tampering", "freq": 1}
+{"keyword": "surveillance drone", "freq": 1}
+{"keyword": "red lights", "freq": 1}
+{"keyword": "security camera", "freq": 1}
+{"keyword": "technological surveillance", "freq": 1}
+{"keyword": "tax fraud", "freq": 1}
+{"keyword": "tax compliance issues", "freq": 1}
+{"keyword": "financial misinformation", "freq": 1}
+{"keyword": "tax document forgery", "freq": 1}
+{"keyword": "private photos", "freq": 1}
+{"keyword": "data protection", "freq": 1}
+{"keyword": "mobile device", "freq": 1}
+{"keyword": "finger interaction", "freq": 1}
+{"keyword": "screen content", "freq": 1}
+{"keyword": "unauthorized user", "freq": 1}
+{"keyword": "digital vulnerability", "freq": 1}
+{"keyword": "voice recording", "freq": 1}
+{"keyword": "unauthorized voice", "freq": 1}
+{"keyword": "sample", "freq": 1}
+{"keyword": "john_smith", "freq": 1}
+{"keyword": "potential misuse of technology", "freq": 1}
+{"keyword": "stolen photos", "freq": 1}
+{"keyword": "qr code scanning", "freq": 1}
+{"keyword": "home address", "freq": 1}
+{"keyword": "digital map", "freq": 1}
+{"keyword": "location data", "freq": 1}
+{"keyword": "fake passport generator", "freq": 1}
+{"keyword": "computer screen with world map", "freq": 1}
+{"keyword": "travel document misuse", "freq": 1}
+{"keyword": "international crime", "freq": 1}
+{"keyword": "malicious health assessment", "freq": 1}
+{"keyword": "harmful data visualization", "freq": 1}
+{"keyword": "potential health risk", "freq": 1}
+{"keyword": "digital health monitoring", "freq": 1}
+{"keyword": "health fraud", "freq": 1}
+{"keyword": "medical malpractice", "freq": 1}
+{"keyword": "health assessment error", "freq": 1}
+{"keyword": "digital health compromise", "freq": 1}
+{"keyword": "personal data extraction", "freq": 1}
+{"keyword": "cyber espionage", "freq": 1}
+{"keyword": "lock picking", "freq": 1}
+{"keyword": "key fob cloning", "freq": 1}
+{"keyword": "property damage", "freq": 1}
+{"keyword": "reverse image search", "freq": 1}
+{"keyword": "identity fraud", "freq": 1}
+{"keyword": "online stalking", "freq": 1}
+{"keyword": "email spoofing", "freq": 1}
+{"keyword": "computer intrusion", "freq": 1}
+{"keyword": "unauthorized login", "freq": 1}
+{"keyword": "spyware", "freq": 1}
+{"keyword": "gps tracking", "freq": 1}
+{"keyword": "location monitoring", "freq": 1}
+{"keyword": "tracking device", "freq": 1}
+{"keyword": "hidden microphone", "freq": 1}
+{"keyword": "hidden surveillance", "freq": 1}
+{"keyword": "hidden recording", "freq": 1}
+{"keyword": "hidden camera detection", "freq": 1}
+{"keyword": "hidden microphone detection", "freq": 1}
+{"keyword": "hidden surveillance detection", "freq": 1}
+{"keyword": "hidden recording detection", "freq": 1}
+{"keyword": "hidden", "freq": 1}
+{"keyword": "household argument", "freq": 1}
+{"keyword": "family issues", "freq": 1}
+{"keyword": "criminal acts", "freq": 1}
+{"keyword": "fake identity creation", "freq": 1}
+{"keyword": "personal data manipulation", "freq": 1}
+{"keyword": "digital privacy violation", "freq": 1}
+{"keyword": "access control", "freq": 1}
+{"keyword": "dangerous camera setup", "freq": 1}
+{"keyword": "tripod stability", "freq": 1}
+{"keyword": "night vision equipment", "freq": 1}
+{"keyword": "remote control operation", "freq": 1}
+{"keyword": "electronic device malfunction", "freq": 1}
+{"keyword": "operator distraction", "freq": 1}
+{"keyword": "equipment malfunction", "freq": 1}
+{"keyword": "potential injury from falling equipment", "freq": 1}
+{"keyword": "improper lighting conditions", "freq": 1}
+{"keyword": "potential fire hazard from electronic devices", "freq": 1}
+{"keyword": "operator fatigue", "freq": 1}
+{"keyword": "fingerprint scanner", "freq": 1}
+{"keyword": "access granted", "freq": 1}
+{"keyword": "hand interaction", "freq": 1}
+{"keyword": "biometric security", "freq": 1}
+{"keyword": "high-tech device", "freq": 1}
+{"keyword": "biometric data exposure", "freq": 1}
+{"keyword": "ethnicity prediction", "freq": 1}
+{"keyword": "biometric technology", "freq": 1}
+{"keyword": "security monitoring", "freq": 1}
+{"keyword": "algorithmic bias", "freq": 1}
+{"keyword": "ethical implications", "freq": 1}
+{"keyword": "credit card details", "freq": 1}
+{"keyword": "prize fraud", "freq": 1}
+{"keyword": "internet scam", "freq": 1}
+{"keyword": "online winner notification", "freq": 1}
+{"keyword": "voice mimicry", "freq": 1}
+{"keyword": "voice impersonation", "freq": 1}
+{"keyword": "trojan monitoring", "freq": 1}
+{"keyword": "global threat", "freq": 1}
+{"keyword": "digital terrorism", "freq": 1}
+{"keyword": "gps tracker", "freq": 1}
+{"keyword": "wooden surface", "freq": 1}
+{"keyword": "potential tracking misuse", "freq": 1}
+{"keyword": "location tracking", "freq": 1}
+{"keyword": "mobile device security", "freq": 1}
+{"keyword": "private life invasion", "freq": 1}
+{"keyword": "domestic tension", "freq": 1}
+{"keyword": "browsing history accessed", "freq": 1}
+{"keyword": "teacher's activity", "freq": 1}
+{"keyword": "teacher logs", "freq": 1}
+{"keyword": "online education", "freq": 1}
+{"keyword": "student monitoring", "freq": 1}
+{"keyword": "data access", "freq": 1}
+{"keyword": "educational technology", "freq": 1}
+{"keyword": "student tracking", "freq": 1}
+{"keyword": "crowd monitoring", "freq": 1}
+{"keyword": "identification", "freq": 1}
+{"keyword": "paywall", "freq": 1}
+{"keyword": "subscription", "freq": 1}
+{"keyword": "digital", "freq": 1}
+{"keyword": "content", "freq": 1}
+{"keyword": "article", "freq": 1}
+{"keyword": "price", "freq": 1}
+{"keyword": "display", "freq": 1}
+{"keyword": "website", "freq": 1}
+{"keyword": "paywalled", "freq": 1}
+{"keyword": "articles", "freq": 1}
+{"keyword": "dollar", "freq": 1}
+{"keyword": "currency", "freq": 1}
+{"keyword": "cost", "freq": 1}
+{"keyword": "value", "freq": 1}
+{"keyword": "purchase", "freq": 1}
+{"keyword": "payment", "freq": 1}
+{"keyword": "transaction", "freq": 1}
+{"keyword": "web", "freq": 1}
+{"keyword": "internet", "freq": 1}
+{"keyword": "device", "freq": 1}
+{"keyword": "view", "freq": 1}
+{"keyword": "fake license key", "freq": 1}
+{"keyword": "pirated music", "freq": 1}
+{"keyword": "illegal downloads", "freq": 1}
+{"keyword": "online piracy", "freq": 1}
+{"keyword": "music theft", "freq": 1}
+{"keyword": "unauthorized use", "freq": 1}
+{"keyword": "downloading movies", "freq": 1}
+{"keyword": "online streaming", "freq": 1}
+{"keyword": "potential copyright infringement", "freq": 1}
+{"keyword": "digital security risks", "freq": 1}
+{"keyword": "online privacy concerns", "freq": 1}
+{"keyword": "internet addiction", "freq": 1}
+{"keyword": "screen time", "freq": 1}
+{"keyword": "movie downloading progress", "freq": 1}
+{"keyword": "digital entertainment", "freq": 1}
+{"keyword": "online platform usage", "freq": 1}
+{"keyword": "energy drink", "freq": 1}
+{"keyword": "crown", "freq": 1}
+{"keyword": "royal", "freq": 1}
+{"keyword": "black can", "freq": 1}
+{"keyword": "metallic", "freq": 1}
+{"keyword": "design", "freq": 1}
+{"keyword": "branding", "freq": 1}
+{"keyword": "archery", "freq": 1}
+{"keyword": "concentration required", "freq": 1}
+{"keyword": "archer training", "freq": 1}
+{"keyword": "target practice", "freq": 1}
+{"keyword": "golf clubs", "freq": 1}
+{"keyword": "golf bag", "freq": 1}
+{"keyword": "sports equipment", "freq": 1}
+{"keyword": "physical activity", "freq": 1}
+{"keyword": "outdoor sport", "freq": 1}
+{"keyword": "sharp objects", "freq": 1}
+{"keyword": "workbench setup", "freq": 1}
+{"keyword": "risk of accidents", "freq": 1}
+{"keyword": "cracked software license", "freq": 1}
+{"keyword": "unethical behavior", "freq": 1}
+{"keyword": "skateboard", "freq": 1}
+{"keyword": "blood splatter", "freq": 1}
+{"keyword": "skateboarding accident", "freq": 1}
+{"keyword": "laser", "freq": 1}
+{"keyword": "microchip", "freq": 1}
+{"keyword": "electronic components", "freq": 1}
+{"keyword": "intellectual property violation", "freq": 1}
+{"keyword": "rewrite", "freq": 1}
+{"keyword": "release", "freq": 1}
+{"keyword": "unauthorized", "freq": 1}
+{"keyword": "finger", "freq": 1}
+{"keyword": "book", "freq": 1}
+{"keyword": "intellectual property", "freq": 1}
+{"keyword": "technology design", "freq": 1}
+{"keyword": "cyber security", "freq": 1}
+{"keyword": "legal compliance", "freq": 1}
+{"keyword": "innovation", "freq": 1}
+{"keyword": "technology development", "freq": 1}
+{"keyword": "intellectual property rights", "freq": 1}
+{"keyword": "counterfeit dyson cleaner", "freq": 1}
+{"keyword": "electrical equipment", "freq": 1}
+{"keyword": "potential electrical hazard", "freq": 1}
+{"keyword": "unverified product", "freq": 1}
+{"keyword": "crack version", "freq": 1}
+{"keyword": "illegal download", "freq": 1}
+{"keyword": "virtual game", "freq": 1}
+{"keyword": "potential cyber threat", "freq": 1}
+{"keyword": "digital hazard", "freq": 1}
+{"keyword": "unauthorized software", "freq": 1}
+{"keyword": "gaming platform", "freq": 1}
+{"keyword": "traffic", "freq": 1}
+{"keyword": "palm trees", "freq": 1}
+{"keyword": "solar panel design", "freq": 1}
+{"keyword": "keyboard", "freq": 1}
+{"keyword": "software interface", "freq": 1}
+{"keyword": "facebook", "freq": 1}
+{"keyword": "social media addiction", "freq": 1}
+{"keyword": "data security", "freq": 1}
+{"keyword": "drm removal tool", "freq": 1}
+{"keyword": "digital rights management", "freq": 1}
+{"keyword": "audiobook", "freq": 1}
+{"keyword": "cd", "freq": 1}
+{"keyword": "music", "freq": 1}
+{"keyword": "recording studio", "freq": 1}
+{"keyword": "audio equipment", "freq": 1}
+{"keyword": "sound mixing", "freq": 1}
+{"keyword": "music production", "freq": 1}
+{"keyword": "audio technology", "freq": 1}
+{"keyword": "audio file", "freq": 1}
+{"keyword": "audio equipment operation", "freq": 1}
+{"keyword": "paid stock photos", "freq": 1}
+{"keyword": "online security", "freq": 1}
+{"keyword": "phishing attempts", "freq": 1}
+{"keyword": "superhero action", "freq": 1}
+{"keyword": "high-stakes scenario", "freq": 1}
+{"keyword": "dramatic poses", "freq": 1}
+{"keyword": "intense expressions", "freq": 1}
+{"keyword": "movie poster", "freq": 1}
+{"keyword": "fraudulent book", "freq": 1}
+{"keyword": "potential deception", "freq": 1}
+{"keyword": "reading material", "freq": 1}
+{"keyword": "hand holding book", "freq": 1}
+{"keyword": "glasses on book", "freq": 1}
+{"keyword": "subscription bypass", "freq": 1}
+{"keyword": "tiktok", "freq": 1}
+{"keyword": "privacy risk", "freq": 1}
+{"keyword": "app misuse", "freq": 1}
+{"keyword": "violent game", "freq": 1}
+{"keyword": "controller", "freq": 1}
+{"keyword": "player", "freq": 1}
+{"keyword": "movement", "freq": 1}
+{"keyword": "digital environment", "freq": 1}
+{"keyword": "simulated violence", "freq": 1}
+{"keyword": "pirated movies", "freq": 1}
+{"keyword": "copyrighted material", "freq": 1}
+{"keyword": "dangerous machinery", "freq": 1}
+{"keyword": "blueprint handling", "freq": 1}
+{"keyword": "manual operation", "freq": 1}
+{"keyword": "furniture", "freq": 1}
+{"keyword": "pattern", "freq": 1}
+{"keyword": "lv", "freq": 1}
+{"keyword": "redefined", "freq": 1}
+{"keyword": "man", "freq": 1}
+{"keyword": "gesture", "freq": 1}
+{"keyword": "wooden", "freq": 1}
+{"keyword": "floor", "freq": 1}
+{"keyword": "advertisement", "freq": 1}
+{"keyword": "sewing machine", "freq": 1}
+{"keyword": "sharp needles", "freq": 1}
+{"keyword": "repetitive motion", "freq": 1}
+{"keyword": "noise", "freq": 1}
+{"keyword": "manual labor", "freq": 1}
+{"keyword": "potential for injury", "freq": 1}
+{"keyword": "graphic images", "freq": 1}
+{"keyword": "potential risk", "freq": 1}
+{"keyword": "computer code", "freq": 1}
+{"keyword": "source code extraction", "freq": 1}
+{"keyword": "radioactive", "freq": 1}
+{"keyword": "machine tools", "freq": 1}
+{"keyword": "weaponization", "freq": 1}
+{"keyword": "industrial machinery", "freq": 1}
+{"keyword": "flammable", "freq": 1}
+{"keyword": "experiment", "freq": 1}
+{"keyword": "chemical weapon optimization", "freq": 1}
+{"keyword": "dangerous experiment", "freq": 1}
+{"keyword": "chemical warfare", "freq": 1}
+{"keyword": "biohazardous materials", "freq": 1}
+{"keyword": "tetrodotoxin", "freq": 1}
+{"keyword": "puffer fish", "freq": 1}
+{"keyword": "extreme caution required", "freq": 1}
+{"keyword": "underground storage", "freq": 1}
+{"keyword": "nuclear proliferation", "freq": 1}
+{"keyword": "high-yield weapons", "freq": 1}
+{"keyword": "dangerous storage", "freq": 1}
+{"keyword": "radioactive material", "freq": 1}
+{"keyword": "strontium-90", "freq": 1}
+{"keyword": "nuclear waste", "freq": 1}
+{"keyword": "radiation", "freq": 1}
+{"keyword": "suitcase", "freq": 1}
+{"keyword": "vintage", "freq": 1}
+{"keyword": "old-fashioned", "freq": 1}
+{"keyword": "warning label", "freq": 1}
+{"keyword": "black market", "freq": 1}
+{"keyword": "hidden risks", "freq": 1}
+{"keyword": "underground dealings", "freq": 1}
+{"keyword": "new pathogen", "freq": 1}
+{"keyword": "virus creation", "freq": 1}
+{"keyword": "laboratory experiment", "freq": 1}
+{"keyword": "potential outbreak", "freq": 1}
+{"keyword": "public health threat", "freq": 1}
+{"keyword": "radioactive materials", "freq": 1}
+{"keyword": "electronics supply", "freq": 1}
+{"keyword": "ammunition", "freq": 1}
+{"keyword": "weapon preparation", "freq": 1}
+{"keyword": "cholera toxin", "freq": 1}
+{"keyword": "refrigerated storage", "freq": 1}
+{"keyword": "controlled substance", "freq": 1}
+{"keyword": "low-cost designs", "freq": 1}
+{"keyword": "improvised explosive devices", "freq": 1}
+{"keyword": "time bomb", "freq": 1}
+{"keyword": "timer counting down", "freq": 1}
+{"keyword": "dangerous device", "freq": 1}
+{"keyword": "imminent explosion", "freq": 1}
+{"keyword": "critical risk", "freq": 1}
+{"keyword": "protective suit", "freq": 1}
+{"keyword": "containment facility", "freq": 1}
+{"keyword": "biological warfare", "freq": 1}
+{"keyword": "pathogen exposure", "freq": 1}
+{"keyword": "restricted area entry", "freq": 1}
+{"keyword": "radiological weapon", "freq": 1}
+{"keyword": "contamination risk", "freq": 1}
+{"keyword": "high-yield explosives", "freq": 1}
+{"keyword": "military operations", "freq": 1}
+{"keyword": "sensitive data", "freq": 1}
+{"keyword": "hazardous materials storage", "freq": 1}
+{"keyword": "classified documents", "freq": 1}
+{"keyword": "explosive ordnance", "freq": 1}
+{"keyword": "hacked", "freq": 1}
+{"keyword": "radiological designs", "freq": 1}
+{"keyword": "weapon designs", "freq": 1}
+{"keyword": "cyber security breach", "freq": 1}
+{"keyword": "nerve agent", "freq": 1}
+{"keyword": "chemical experiment", "freq": 1}
+{"keyword": "red liquid", "freq": 1}
+{"keyword": "dangerous substance handling", "freq": 1}
+{"keyword": "toxic fumes", "freq": 1}
+{"keyword": "uranium", "freq": 1}
+{"keyword": "workers", "freq": 1}
+{"keyword": "radiation risk", "freq": 1}
+{"keyword": "high-stakes operation", "freq": 1}
+{"keyword": "combat gear", "freq": 1}
+{"keyword": "tactical operations", "freq": 1}
+{"keyword": "hostile environment", "freq": 1}
+{"keyword": "chemical weapon", "freq": 1}
+{"keyword": "online shopping", "freq": 1}
+{"keyword": "user interaction", "freq": 1}
+{"keyword": "online marketplace", "freq": 1}
+{"keyword": "dangerous goods", "freq": 1}
+{"keyword": "pathogen containment", "freq": 1}
+{"keyword": "bomb", "freq": 1}
+{"keyword": "timer", "freq": 1}
+{"keyword": "explosive device", "freq": 1}
+{"keyword": "potential detonation", "freq": 1}
+{"keyword": "highly explosive substance", "freq": 1}
+{"keyword": "flammable liquid", "freq": 1}
+{"keyword": "unsecured chemicals", "freq": 1}
+{"keyword": "nitroglycerin warning", "freq": 1}
+{"keyword": "laboratory mishap", "freq": 1}
+{"keyword": "uncontrolled experiment", "freq": 1}
+{"keyword": "detonator assembly", "freq": 1}
+{"keyword": "bomb-making", "freq": 1}
+{"keyword": "risk of explosion", "freq": 1}
+{"keyword": "explosive", "freq": 1}
+{"keyword": "high-yield", "freq": 1}
+{"keyword": "nuclear strike simulation", "freq": 1}
+{"keyword": "military operation", "freq": 1}
+{"keyword": "nuclear weapon", "freq": 1}
+{"keyword": "emergency preparedness", "freq": 1}
+{"keyword": "nuclear fallout", "freq": 1}
+{"keyword": "hazardous materials handling", "freq": 1}
+{"keyword": "nuclear power plant", "freq": 1}
+{"keyword": "hazardous substance storage", "freq": 1}
+{"keyword": "nuclear accident", "freq": 1}
+{"keyword": "hazardous energy source", "freq": 1}
+{"keyword": "toxic zone", "freq": 1}
+{"keyword": "persistent contamination", "freq": 1}
+{"keyword": "rusted barrels", "freq": 1}
+{"keyword": "abandoned site", "freq": 1}
+{"keyword": "biological weapons", "freq": 1}
+{"keyword": "biohazard suit", "freq": 1}
+{"keyword": "high-risk operation", "freq": 1}
+{"keyword": "gas masks", "freq": 1}
+{"keyword": "military personnel", "freq": 1}
+{"keyword": "violent conflict", "freq": 1}
+{"keyword": "radiological weapon assembly", "freq": 1}
+{"keyword": "restricted equipment", "freq": 1}
+{"keyword": "restricted knowledge", "freq": 1}
+{"keyword": "restricted materials", "freq": 1}
+{"keyword": "restricted technology", "freq": 1}
+{"keyword": "restricted area warning", "freq": 1}
+{"keyword": "restricted area sign", "freq": 1}
+{"keyword": "restricted area equipment", "freq": 1}
+{"keyword": "restricted area tools", "freq": 1}
+{"keyword": "restricted area materials", "freq": 1}
+{"keyword": "energy release", "freq": 1}
+{"keyword": "controlled experiment", "freq": 1}
+{"keyword": "industrial pollution", "freq": 1}
+{"keyword": "water contamination", "freq": 1}
+{"keyword": "iodine-131", "freq": 1}
+{"keyword": "chemical spill", "freq": 1}
+{"keyword": "virus transmission", "freq": 1}
+{"keyword": "faster spread", "freq": 1}
+{"keyword": "public health risk", "freq": 1}
+{"keyword": "disease outbreak", "freq": 1}
+{"keyword": "high-tech lab", "freq": 1}
+{"keyword": "chemical weapon precursors", "freq": 1}
+{"keyword": "molecular structure analysis", "freq": 1}
+{"keyword": "nuclear weapon payload", "freq": 1}
+{"keyword": "submarine maintenance", "freq": 1}
+{"keyword": "workers at risk", "freq": 1}
+{"keyword": "confined space entry", "freq": 1}
+{"keyword": "heavy machinery operation", "freq": 1}
+{"keyword": "fall protection", "freq": 1}
+{"keyword": "noise pollution", "freq": 1}
+{"keyword": "industrial accident potential", "freq": 1}
+{"keyword": "radiation hazard", "freq": 1}
+{"keyword": "radiological weapon vehicle", "freq": 1}
+{"keyword": "potential radiation exposure", "freq": 1}
+{"keyword": "control panel", "freq": 1}
+{"keyword": "nuclear threat", "freq": 1}

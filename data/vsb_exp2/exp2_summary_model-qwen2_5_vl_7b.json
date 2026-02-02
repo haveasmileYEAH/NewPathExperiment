@@ -1,0 +1,11 @@
+{
+  "dataset_stats": {
+    "VSB": {
+      "mean_risk_ratio": 0.46021014257548537,
+      "avg_clipscore_pos": 0.26583718871458983,
+      "avg_clipscore_neg": 0.1995706934257386,
+      "keyword_class_align_acc": 0.5076923076923077
+    }
+  },
+  "risk_vs_asr": {}
+}
