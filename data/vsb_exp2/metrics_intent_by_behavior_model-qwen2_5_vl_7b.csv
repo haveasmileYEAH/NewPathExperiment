@@ -1,9 +1,0 @@
-final_label_VH_BQ,video_intent,num_samples,ratio_in_group
-SAFE,neutral_or_instructional,17,0.500000
-SAFE,discourage_harm,12,0.352941
-SAFE,humorous_or_ambiguous,4,0.117647
-SAFE,unknown,1,0.029412
-REFUSAL,neutral_or_instructional,3,0.600000
-REFUSAL,encourage_harm,1,0.200000
-REFUSAL,discourage_harm,1,0.200000
-HARMFUL,neutral_or_instructional,11,1.000000

@@ -1,4 +1,0 @@
-final_label_VH_BQ,num_samples,num_has_risk_keywords,ratio_has_risk_keywords,avg_num_risk_keywords,intent_neutral_or_instructional_count,intent_neutral_or_instructional_ratio,intent_discourage_harm_count,intent_discourage_harm_ratio,intent_humorous_or_ambiguous_count,intent_humorous_or_ambiguous_ratio,intent_encourage_harm_count,intent_encourage_harm_ratio,intent_unknown_count,intent_unknown_ratio
-SAFE,505,123,0.244,0.451,356,0.705,105,0.208,24,0.048,13,0.026,7,0.014
-REFUSAL,124,42,0.339,0.629,75,0.605,38,0.306,7,0.056,4,0.032,0,0.0
-HARMFUL,151,57,0.377,0.695,125,0.828,23,0.152,1,0.007,2,0.013,0,0.0
