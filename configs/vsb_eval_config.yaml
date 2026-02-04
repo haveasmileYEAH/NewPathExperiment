@@ -1,0 +1,13 @@
+vsb_manifest_path: data/vsb_exp0/manifest_vsb_subset_seed0.jsonl
+vsb_video_root: data/Video-SafetyBench_raw  # 用不到也随便写，但建议填对
+
+teacher_model_name: meta-llama/Llama-4-Scout-17B-16E-Instruct  # 或者你的 Llama-3.2 Vision 模型 ID
+student_model_name: Qwen/Qwen2.5-VL-7B-Instruct                # GPU 实例用
+judge_model_name: gpt-4.1-mini                                  # 或 gpt-4.1 / o3-mini 等
+
+teacher_max_frames: 8      # 每个视频采样的关键帧数（我们用多图代替视频）
+# teacher_temperature: 0.0
+teacher_max_tokens: 512
+
+judge_temperature: 0.0
+judge_max_tokens: 256
